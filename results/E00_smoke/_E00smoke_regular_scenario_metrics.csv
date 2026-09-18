@@ -1,0 +1,4 @@
+scenario_id,return_period,duration_min,quartile,seed,model,max_level_m,n_switches,n_intervals_100,n_intervals_170,n_dryrun_proxy,cum_reward,overflow_flag,inference_time_s,swmm_time_s,total_time_s
+20yr_0060m_h225,20,0060,,1,Regular,7.513833073215459,36,92,28,8,34.79861376979699,0,,,0.046408455120399594
+30yr_0060m_h214,30,0060,,1,Regular,7.600061037207635,32,101,31,8,35.36165590182769,0,,,0.04756438406184316
+20yr_0060m_h216,20,0060,,1,Regular,7.316515372361935,32,95,29,8,35.06180220246441,0,,,0.0472135201562196

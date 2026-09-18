@@ -1,0 +1,4 @@
+condition,guidance_source,max_level_m_mean,max_level_m_sd,n_switches_mean,n_switches_sd,n_dryrun_proxy_mean,n_dryrun_proxy_sd,n_seeds,n_scenarios_per_seed,source
+A0,"none (ga_prob=0)",6.201,0.152,39.74,10.00,2.63,1.89,5,2700,docs/E05_REPORT.md (paste-ready summary, 2026-09-01 5-seed final)
+A1,"random action (same decay schedule as A3)",6.133,0.159,41.66,5.81,4.86,2.54,5,2700,docs/E05_REPORT.md (paste-ready summary, 2026-09-01 5-seed final)
+A3,"GA (ga_start=0.6 -> 0.0, decaying)",6.033,0.091,34.20,4.76,4.87,4.39,5,2700,"docs/E05_REPORT.md (A3 reused from E3 v2, 5 seeds)"

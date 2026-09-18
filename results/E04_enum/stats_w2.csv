@@ -1,0 +1,13 @@
+comparison,n_scenarios,n_seeds,mean_diff,ci95_lo,ci95_hi,wilcoxon_p,cliffs_delta
+ENUM max_level: L1 vs L2,270,1,0.8125,0.7909,0.8324,4.927e-46,0.9849
+ENUM max_level: L1 vs L3,270,1,0.6797,0.6458,0.7136,1.062e-45,0.9226
+ENUM max_level: L2 vs L3,270,1,-0.1327,-0.1585,-0.1063,6.992e-19,-0.1946
+ENUM max_level: L3 vs L5,270,1,-0.4688,-0.4941,-0.4447,5.632e-46,-0.7153
+ENUM max_level: L5 vs L6,270,1,-0.3113,-0.3401,-0.2833,1.376e-44,-0.6748
+ENUM max_level: L1 vs L7,18,1,-0.4465,-0.5892,-0.2766,2.518e-04,-0.7531
+ENUM max_level: L1 vs L8,18,1,-0.746,-0.9113,-0.5482,3.815e-05,-0.8889
+ENUM max_level: L6 vs L7,18,1,-0.3598,-0.4797,-0.2416,2.289e-05,-0.6852
+ENUM max_level: L7 vs L8,18,1,-0.2996,-0.4408,-0.1939,7.629e-06,-0.5494
+"ENUM-L5 vs GA-guided DDQN (max_level, DDQN=5-seed mean/scenario)",270,5,0.0886,0.0648,0.1119,2.082e-09,0.4022
+"ENUM-L2 vs GA-guided DDQN (max_level, DDQN=5-seed mean/scenario)",270,5,-0.513,-0.5284,-0.4969,4.927e-46,-0.8782
+"ENUM-L5 vs Regular DDQN (max_level, DDQN=5-seed mean/scenario)",270,5,-0.1105,-0.1402,-0.0805,2.678e-11,-0.1155

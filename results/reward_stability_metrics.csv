@@ -1,0 +1,5 @@
+reward_data,sample_count,rolling_window,residual_std,rolling_mean_std,final_25pct_mean,final_25pct_std,final_25pct_cv
+regular_train_reward,3996,100,50.155975,5.913143,85.489351,56.002784,0.655085
+ga_guided_train_reward,3996,100,55.966238,6.555309,89.627362,58.475619,0.652430
+regular_test_reward,2700,100,61.736566,6.451243,95.876101,61.829371,0.644888
+ga_guided_test_reward,2700,100,61.177694,6.428863,95.691550,61.347561,0.641097

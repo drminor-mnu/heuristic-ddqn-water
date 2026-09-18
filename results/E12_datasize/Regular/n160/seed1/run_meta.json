@@ -1,0 +1,36 @@
+{
+  "exp_id": "E12",
+  "model": "Regular",
+  "seed": 1,
+  "train_n_condition": 160,
+  "git_commit": "312551763a58a5d201fe97d3627499eda8a19c88",
+  "started_at": "2026-09-01T06:45:55.315481+00:00",
+  "finished_at": "2026-09-01T06:57:57.651593+00:00",
+  "elapsed_train_s": 135.47211672388949,
+  "hyperparams": {
+    "lr": 0.001,
+    "gamma": 0.7,
+    "batch_size": 20,
+    "target_update_C": 10,
+    "gru_layers": 3,
+    "gru_hidden": 32,
+    "seq_len": 5
+  },
+  "reward_weights": {
+    "w1": 0.4,
+    "w2": 0.25,
+    "w3": 0.25,
+    "w4": 0.1
+  },
+  "heuristic_params": {},
+  "data": {
+    "train_n": 160,
+    "test_n": 2700,
+    "split_seed": 42,
+    "split_file": "data/splits/fixed_split_seed42.json"
+  },
+  "versions": {
+    "python": "3.9.16 | packaged by conda-forge | (main, Feb  1 2023, 21:39:03) \n[GCC 11.3.0]",
+    "torch": "2.0.1+cu117"
+  }
+}

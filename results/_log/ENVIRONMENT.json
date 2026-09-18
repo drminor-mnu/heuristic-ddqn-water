@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-08-26",
+  "hardware": {
+    "cpu": "13th Gen Intel(R) Core(TM) i9-13900KF",
+    "cpu_cores_physical": 24,
+    "cpu_threads_logical": 32,
+    "gpu": "NVIDIA GeForce RTX 3080 Ti",
+    "gpu_memory_mib": 12288,
+    "gpu_driver_version": "580.173.02",
+    "ram_gb": 94
+  },
+  "os": {
+    "name": "Ubuntu",
+    "version": "22.04.5 LTS (Jammy Jellyfish)",
+    "kernel": "Linux 6.8.0-136-generic x86_64"
+  },
+  "versions": {
+    "python": "3.9.16",
+    "torch": "2.0.1+cu117",
+    "cuda_runtime": "11.7",
+    "cudnn": "8500",
+    "numpy": "1.26.4",
+    "pyswmm": "2.0.0",
+    "swmm_engine": "5.2.4"
+  },
+  "notes": "swmm_engine은 pyswmm.Simulation.engine_version으로 실측 확인(임시 시뮬레이션 1회 실행). cuda_runtime/cudnn은 torch.version.cuda / torch.backends.cudnn.version() 기준이며 시스템 전역 CUDA 툴킷 버전과는 다를 수 있음."
+}

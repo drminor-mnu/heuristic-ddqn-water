@@ -1,0 +1,16 @@
+source,model_or_L,n_scenarios,n_seeds_or_note,max_level_mean,max_level_std,n_switches_mean,n_dryrun_mean,overflow_rate
+E3v2-DDQN (no forecast),Regular,270,5 seeds,6.2294,0.2824,39.031,3.298,0
+E3v2-DDQN (no forecast),GA-guided,270,5 seeds,6.0303,0.1855,34.321,4.064,0
+E3v2-DDQN (no forecast),PSO-guided,270,5 seeds,6.2036,0.334,32.206,2.081,0
+E3v2-DDQN (no forecast),GA-only,270,5 seeds,6.3298,0.1009,72.863,0.311,0
+E3v2-DDQN (no forecast),PSO-only,270,5 seeds,6.3298,0.101,72.884,0.321,0
+ENUM-L (persistence forecast),L=1,270,deterministic (no seed),6.3298,0.1009,30.081,0.311,0
+ENUM-L (persistence forecast),L=2,270,deterministic (no seed),5.5173,0.199,44.152,0.0,0
+ENUM-L (persistence forecast),L=3,270,deterministic (no seed),5.6501,0.3089,58.326,0.0,0
+ENUM-L (persistence forecast),L=5,270,deterministic (no seed),6.1189,0.2462,38.104,0.0,0
+ENUM-L (persistence forecast),L=6,270,deterministic (no seed),6.4302,0.2488,34.619,0.0,0
+ENUM-L (persistence forecast),L=7,18,deterministic (no seed),6.7681,0.3245,30.778,0.0,0
+ENUM-L (persistence forecast),L=8,18,deterministic (no seed),7.0677,0.3694,27.778,0.0,0
+ENUM-L (perfect foresight),L=2,270,deterministic (no seed),5.5075,0.1882,44.207,0.022,0
+ENUM-L (perfect foresight),L=3,270,deterministic (no seed),5.6572,0.2999,58.389,0.037,0
+ENUM-L (perfect foresight),L=5,270,deterministic (no seed),6.0986,0.2364,37.826,0.015,0

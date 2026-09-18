@@ -1,0 +1,2 @@
+n_train,n_test,total_depth_ks,total_depth_train_mean,total_depth_train_std,total_depth_test_mean,total_depth_test_std,peak_interval_ks,peak_interval_train_mean,peak_interval_train_std,peak_interval_test_mean,peak_interval_test_std
+3996,2700,0.00832,171.80852,60.38912,171.83343,60.36336,0.00878,1.27241,0.81921,1.27228,0.81747

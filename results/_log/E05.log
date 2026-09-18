@@ -1,0 +1,24 @@
+[2026-08-31T16:50:56] output path: results/E05_ablation/A0/seed1
+[2026-08-31T16:50:56] output path: results/E05_ablation/A0/seed2
+[2026-08-31T16:50:56] output path: results/E05_ablation/A0/seed3
+[2026-08-31T16:50:56] output path: results/E05_ablation/A1/seed1
+[2026-08-31T16:50:56] output path: results/E05_ablation/A1/seed2
+[2026-08-31T16:50:56] output path: results/E05_ablation/A1/seed3
+[2026-08-31T16:50:56] 6 total combos, 0 done, 6 to run, workers=3
+[2026-08-31T18:12:27] DONE A0 seed1: 2700 rows in 4889.6s
+[2026-08-31T18:12:29] DONE A0 seed3: 2700 rows in 4891.7s
+[2026-08-31T18:12:33] DONE A0 seed2: 2700 rows in 4895.7s
+[2026-08-31T19:37:57] DONE A1 seed1: 2700 rows in 5130.2s
+[2026-08-31T19:37:58] DONE A1 seed2: 2700 rows in 5128.9s
+[2026-08-31T19:38:00] DONE A1 seed3: 2700 rows in 5127.4s
+[2026-08-31T19:38:00] run complete
+[2026-08-31T22:07:42] output path: results/E05_ablation/A0/seed4
+[2026-08-31T22:07:42] output path: results/E05_ablation/A0/seed5
+[2026-08-31T22:07:42] output path: results/E05_ablation/A1/seed4
+[2026-08-31T22:07:42] output path: results/E05_ablation/A1/seed5
+[2026-08-31T22:07:42] 4 total combos, 0 done, 4 to run, workers=2
+[2026-08-31T23:09:50] DONE A0 seed5: 2700 rows in 3727.8s
+[2026-08-31T23:09:51] DONE A0 seed4: 2700 rows in 3728.0s
+[2026-09-01T00:11:51] DONE A1 seed4: 2700 rows in 3721.0s
+[2026-09-01T00:12:00] DONE A1 seed5: 2700 rows in 3729.1s
+[2026-09-01T00:12:00] run complete

@@ -1,0 +1,4 @@
+example_rank,scenario_id,L_from,L_to,max_level_from,max_level_to,delta
+1,20yr_1080m_h1107,5,6,5.6553,6.9061,1.2508
+2,100yr_1440m_h1202,5,6,5.6722,6.8579,1.1857
+3,30yr_1080m_h995,5,6,5.6638,6.8477,1.1839

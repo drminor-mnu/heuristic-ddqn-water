@@ -1,0 +1,15 @@
+Table 17. One-step decision time of ENUM, PSO, and GA (mean +- sd, 3 repeats).
+Measurement basis: state observation + decision search + environment-step
+overhead, excluding the once-per-episode SWMM simulation (same basis as
+Table 5 Decision time and Figure 10; see footnote).
+
+Model        ms/decision
+ENUM        0.0420 +- 0.0011
+PSO         1.4106 +- 0.0063
+GA         19.9324 +- 0.1072
+
+Note: PSO and GA values are reused verbatim from the Figure 10
+measurement (results/summary/E10_unified_c_summary.csv), which already
+uses this same basis -- not re-measured here, to guarantee identical
+values between Table 17 and Figure 10. ENUM was newly measured on the
+identical protocol (54-scenario stratified subsample, seed1, 3 repeats).

@@ -1,0 +1,24 @@
+{
+  "genetic": {
+    "mean_execution_time_seconds": 1637.527336377371,
+    "output": "results/genetic_w0.25_w0.4_w0.25_w0.1_mean.csv",
+    "run_execution_time_seconds": [
+      1615.4953942219727,
+      1637.4837810141034,
+      1648.127485227771,
+      1643.3464571801014,
+      1643.1835642429069
+    ]
+  },
+  "pso": {
+    "mean_execution_time_seconds": 150.11889064321295,
+    "output": "results/pso_w0.25_w0.4_w0.25_w0.1_mean.csv",
+    "run_execution_time_seconds": [
+      149.6601394242607,
+      149.8733372632414,
+      150.59385323431343,
+      149.73994768597186,
+      150.72717560827732
+    ]
+  }
+}

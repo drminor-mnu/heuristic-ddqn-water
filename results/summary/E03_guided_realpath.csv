@@ -1,0 +1,9 @@
+config,gamma,norm,fix_al,guide,seed,n_train,n_test,overflow_rate,mean_max_level_m,action0_lock_rate,mean_n_intervals_100,mean_n_intervals_170,mean_n_switches,mean_dryrun_proxy,elapsed_s
+alfix_orig,0.1,sum,1,PSO,2,500,30,1.0,10.0,0.1333,142.07,60.17,6.53,0.7333,1057.5
+alfix_orig,0.1,sum,1,PSO,1,500,30,1.0,10.0,1.0,0.0,0.0,0.0,0.0,1058.7
+alfix_full,0.7,minmax,1,PSO,1,500,30,0.0,8.2038,0.0,237.87,46.7,17.2,0.2667,1060.4
+alfix_full,0.7,minmax,1,PSO,2,500,30,0.0,7.8123,0.0,234.73,42.97,13.93,1.8,1062.5
+alfix_full,0.7,minmax,1,GA,2,500,30,0.0,8.0081,0.0,236.53,47.73,17.93,0.7333,1750.3
+alfix_orig,0.1,sum,1,GA,2,500,30,1.0,10.0,0.0333,159.6,45.23,10.43,0.4,1760.7
+alfix_full,0.7,minmax,1,GA,1,500,30,0.0,8.3933,0.0,230.87,51.2,15.07,0.6667,1763.0
+alfix_orig,0.1,sum,1,GA,1,500,30,1.0,10.0,0.0,136.07,0.0,1.03,0.0,1765.5

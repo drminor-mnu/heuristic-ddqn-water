@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.spyproject/
+.ipynb_checkpoints/
+*.rpt
+*.out

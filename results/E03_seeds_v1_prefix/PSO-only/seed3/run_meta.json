@@ -1,0 +1,36 @@
+{
+  "exp_id": "E03",
+  "model": "PSO-only",
+  "seed": 3,
+  "git_commit": "c07218bf40a5b9dd1f5262a833939cb69a4ac40e",
+  "started_at": "2026-08-26T20:41:26.415614+00:00",
+  "finished_at": "2026-08-26T21:14:37.263922+00:00",
+  "elapsed_train_s": null,
+  "hyperparams": {},
+  "reward_weights": {
+    "w1": 0.25,
+    "w2": 0.4,
+    "w3": 0.25,
+    "w4": 0.1
+  },
+  "heuristic_params": {
+    "type": "PSO",
+    "swarm_size": 30,
+    "num_iterations": 100,
+    "inertia": 0.7,
+    "cognitive": 1.5,
+    "social": 1.5,
+    "patience": 10,
+    "min_improvement": 1e-06
+  },
+  "data": {
+    "train_n": 3996,
+    "test_n": 2700,
+    "split_seed": 42,
+    "split_file": "data/splits/fixed_split_seed42.json"
+  },
+  "versions": {
+    "python": "3.9.16 | packaged by conda-forge | (main, Feb  1 2023, 21:39:03) \n[GCC 11.3.0]",
+    "torch": "2.0.1+cu117"
+  }
+}

@@ -1,0 +1,60 @@
+tasks=10
+cuda
+
+tests: 30
+Genetic Test #0cuda
+
+tests: 30
+Genetic Test #0cuda
+
+tests: 30
+Genetic Test #0cuda
+
+tests: 30
+Genetic Test #0cuda
+
+tests: 30
+Genetic Test #0cuda
+
+tests: 30
+Genetic Test #0cuda
+
+tests: 30
+Genetic Test #0cuda
+
+tests: 30
+Genetic Test #0Genetic Test #1Genetic Test #1Genetic Test #1Genetic Test #1Genetic Test #1Genetic Test #1Genetic Test #1Genetic Test #2Genetic Test #2Genetic Test #2Genetic Test #2Genetic Test #2Genetic Test #2Genetic Test #2Genetic Test #1Genetic Test #3Genetic Test #3Genetic Test #3Genetic Test #3Genetic Test #3Genetic Test #3Genetic Test #3Genetic Test #2Genetic Test #4Genetic Test #4Genetic Test #4Genetic Test #4Genetic Test #4Genetic Test #4Genetic Test #5Genetic Test #5Genetic Test #4Genetic Test #5Genetic Test #5Genetic Test #5Genetic Test #5Genetic Test #5Genetic Test #3Genetic Test #6Genetic Test #6Genetic Test #7Genetic Test #7Genetic Test #6Genetic Test #6Genetic Test #6Genetic Test #6Genetic Test #7Genetic Test #7Genetic Test #7Genetic Test #7Genetic Test #8Genetic Test #8Genetic Test #4Genetic Test #9Genetic Test #9Genetic Test #8Genetic Test #8Genetic Test #8Genetic Test #8Genetic Test #9Genetic Test #9Genetic Test #9Genetic Test #9Genetic Test #6Genetic Test #7Genetic Test #5Genetic Test #8Genetic Test #10Genetic Test #10Genetic Test #9Genetic Test #10Genetic Test #10Genetic Test #10Genetic Test #10Genetic Test #11Genetic Test #11Genetic Test #11Genetic Test #11Genetic Test #11Genetic Test #11Genetic Test #12Genetic Test #12Genetic Test #12Genetic Test #12Genetic Test #12Genetic Test #12Genetic Test #10Genetic Test #13Genetic Test #13Genetic Test #13Genetic Test #13Genetic Test #13Genetic Test #13Genetic Test #11Genetic Test #14Genetic Test #14Genetic Test #12Genetic Test #15Genetic Test #15Genetic Test #14Genetic Test #16Genetic Test #14Genetic Test #16Genetic Test #14Genetic Test #14Genetic Test #15Genetic Test #15Genetic Test #15Genetic Test #15Genetic Test #16Genetic Test #16Genetic Test #16Genetic Test #13Genetic Test #16Genetic Test #6Genetic Test #7Genetic Test #17Genetic Test #17Genetic Test #17Genetic Test #8Genetic Test #17Genetic Test #17Genetic Test #18Genetic Test #17Genetic Test #18Genetic Test #19Genetic Test #19Genetic Test #9Genetic Test #20Genetic Test #14Genetic Test #20Genetic Test #18Genetic Test #21Genetic Test #18Genetic Test #18Genetic Test #21Genetic Test #18Genetic Test #15Genetic Test #22Genetic Test #19Genetic Test #22Genetic Test #19Genetic Test #19Genetic Test #19Genetic Test #23Genetic Test #16Genetic Test #20Genetic Test #23Genetic Test #20Genetic Test #20Genetic Test #21Genetic Test #24Genetic Test #20Genetic Test #21Genetic Test #24Genetic Test #21Genetic Test #21Genetic Test #22Genetic Test #22Genetic Test #22Genetic Test #22Genetic Test #23Genetic Test #23Genetic Test #10Genetic Test #23Genetic Test #23Genetic Test #24Genetic Test #24Genetic Test #24Genetic Test #25Genetic Test #24Genetic Test #25Genetic Test #26Genetic Test #26Genetic Test #27Genetic Test #27Genetic Test #11Genetic Test #17Genetic Test #28Genetic Test #28Genetic Test #25Genetic Test #29Genetic Test #25Genetic Test #29Genetic Test #25Genetic Test #25>>> 1/10 w_current_0.25_0.4_0.25_0.1      s2 overflow=1.0 maxlvl=10.0 act0=1.0 nsw=0.0 (173.4s)
+
+tests: 30
+Genetic Test #0Genetic Test #26>>> 2/10 w_current_0.25_0.4_0.25_0.1      s1 overflow=1.0 maxlvl=10.0 act0=1.0 nsw=0.0 (174.4s)
+
+tests: 30
+Genetic Test #0Genetic Test #26Genetic Test #26Genetic Test #1Genetic Test #12Genetic Test #27Genetic Test #1Genetic Test #26Genetic Test #27Genetic Test #2Genetic Test #27Genetic Test #2Genetic Test #27Genetic Test #18Genetic Test #3Genetic Test #28Genetic Test #3Genetic Test #28Genetic Test #28Genetic Test #29Genetic Test #29Genetic Test #29Genetic Test #28Genetic Test #19Genetic Test #29>>> 3/10 w_level_gt_switch_0.4_0.25       s2 overflow=0.0 maxlvl=6.6352 act0=0.0 nsw=37.13 (186.6s)
+Genetic Test #4>>> 4/10 w_level_dominant_0.6_0.2         s2 overflow=0.0 maxlvl=5.1574 act0=0.0 nsw=108.0 (187.3s)
+Genetic Test #13Genetic Test #4>>> 5/10 w_level_dominant_0.6_0.2         s1 overflow=0.0 maxlvl=5.1574 act0=0.0 nsw=108.0 (188.2s)
+Genetic Test #20>>> 6/10 w_level_gt_switch_0.4_0.25       s1 overflow=0.0 maxlvl=6.6352 act0=0.0 nsw=37.13 (189.7s)
+Genetic Test #5Genetic Test #5Genetic Test #21Genetic Test #22Genetic Test #23Genetic Test #24Genetic Test #14Genetic Test #6Genetic Test #6Genetic Test #7Genetic Test #7Genetic Test #15Genetic Test #8Genetic Test #8Genetic Test #16Genetic Test #9Genetic Test #9Genetic Test #25Genetic Test #26Genetic Test #27Genetic Test #10Genetic Test #28Genetic Test #10Genetic Test #29>>> 7/10 w_2crit_1_1_0_0                  s2 overflow=0.0 maxlvl=5.9725 act0=0.0 nsw=5.0 (241.3s)
+Genetic Test #17Genetic Test #11Genetic Test #11Genetic Test #18Genetic Test #12Genetic Test #12Genetic Test #19Genetic Test #20Genetic Test #13Genetic Test #21Genetic Test #13Genetic Test #22Genetic Test #23Genetic Test #24Genetic Test #14Genetic Test #14Genetic Test #15Genetic Test #15Genetic Test #16Genetic Test #16Genetic Test #25Genetic Test #26Genetic Test #27Genetic Test #28Genetic Test #29Genetic Test #17Genetic Test #17>>> 8/10 w_2crit_1_1_0_0                  s1 overflow=0.0 maxlvl=5.9725 act0=0.0 nsw=5.0 (311.4s)
+Genetic Test #18Genetic Test #18Genetic Test #19Genetic Test #19Genetic Test #20Genetic Test #20Genetic Test #21Genetic Test #21Genetic Test #22Genetic Test #22Genetic Test #23Genetic Test #23Genetic Test #24Genetic Test #24Genetic Test #25Genetic Test #25Genetic Test #26Genetic Test #26Genetic Test #27Genetic Test #27Genetic Test #28Genetic Test #28Genetic Test #29Genetic Test #29>>> 9/10 w_level_only_1_0_0_0             s1 overflow=0.0 maxlvl=4.9174 act0=0.0 nsw=328.03 (201.3s)
+>>> 10/10 w_level_only_1_0_0_0             s2 overflow=0.0 maxlvl=4.9174 act0=0.0 nsw=327.63 (200.6s)
+
+
+
+
+
+
+
+
+
+all done 376s
+
+=== GA-only weight sweep (mean over seeds 1,2) ===
+                             overflow  max_level  act0  n_switches        dry
+tag                                                                          
+w_current_0.25_0.4_0.25_0.1       1.0    10.0000   1.0        0.00    0.00000
+w_2crit_1_1_0_0                   0.0     5.9725   0.0        5.00  204.46670
+w_level_gt_switch_0.4_0.25        0.0     6.6352   0.0       37.13    0.00000
+w_level_dominant_0.6_0.2          0.0     5.1574   0.0      108.00   21.90000
+w_level_only_1_0_0_0              0.0     4.9174   0.0      327.83  241.73335
+
+manuscript GA-only target: max_level 5.783, n_switches 43.66, dry-running 0.05, non-flooding

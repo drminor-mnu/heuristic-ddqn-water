@@ -1,0 +1,43 @@
+{
+  "exp_id": "E05",
+  "condition": "A0",
+  "seed": 4,
+  "git_commit": "7b41b389e445e28fe0ede9f1a383562659563a4b",
+  "started_at": "2026-08-31T13:07:43.106563+00:00",
+  "finished_at": "2026-08-31T14:09:50.964128+00:00",
+  "elapsed_train_s": 3144.4174879060593,
+  "hyperparams": {
+    "lr": 0.001,
+    "gamma": 0.7,
+    "batch_size": 20,
+    "target_update_C": 200,
+    "min_replay_size": 100,
+    "ga_start": 0.0,
+    "ga_end": 0.0,
+    "eps_start": 0.3,
+    "eps_end": 0.05,
+    "gru_layers": 3,
+    "gru_hidden": 32,
+    "seq_len": 5
+  },
+  "reward_weights": {
+    "w1": 0.4,
+    "w2": 0.25,
+    "w3": 0.25,
+    "w4": 0.1
+  },
+  "heuristic_params": {
+    "type": "GeneticAlgorithm",
+    "guide_label": "GA"
+  },
+  "data": {
+    "train_n": 3996,
+    "test_n": 2700,
+    "split_seed": 42,
+    "split_file": "data/splits/fixed_split_seed42.json"
+  },
+  "versions": {
+    "python": "3.9.16 | packaged by conda-forge | (main, Feb  1 2023, 21:39:03) \n[GCC 11.3.0]",
+    "torch": "2.0.1+cu117"
+  }
+}

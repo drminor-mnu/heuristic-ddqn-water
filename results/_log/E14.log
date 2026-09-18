@@ -1,0 +1,6 @@
+[2026-09-02T17:10:20] 5 pending seed(s), weights=[0.5, 0.5, 0.0, 0.0], workers=2
+[2026-09-02T18:12:28] DONE seed2: 2700 rows in 3727.1s
+[2026-09-02T18:12:31] DONE seed1: 2700 rows in 3729.7s
+[2026-09-02T19:14:29] DONE seed3: 2700 rows in 3720.5s
+[2026-09-02T19:14:36] DONE seed4: 2700 rows in 3724.4s
+[2026-09-02T20:01:58] DONE seed5: 2700 rows in 2848.7s

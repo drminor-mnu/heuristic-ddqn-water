@@ -1,0 +1,72 @@
+[13:36:18] START G7_1 seed2  cond={'norm_mode': 'minmax', 'gamma': 0.7, 'sync_mode': 'step', 'sync_freq': 10, 'weights': [0.25, 0.4, 0.25, 0.1]}
+[13:36:18] START G7_2 seed1  cond={'norm_mode': 'minmax', 'gamma': 0.7, 'sync_mode': 'episode', 'sync_freq': 10, 'weights': [0.25, 0.4, 0.25, 0.1]}
+[13:36:18] START G7_1 seed1  cond={'norm_mode': 'minmax', 'gamma': 0.7, 'sync_mode': 'step', 'sync_freq': 10, 'weights': [0.25, 0.4, 0.25, 0.1]}
+[13:36:18] START G9_1 seed2  cond={'norm_mode': 'minmax', 'gamma': 0.9, 'sync_mode': 'step', 'sync_freq': 10, 'weights': [0.25, 0.4, 0.25, 0.1]}
+[13:36:18] START G9_2 seed1  cond={'norm_mode': 'minmax', 'gamma': 0.9, 'sync_mode': 'episode', 'sync_freq': 10, 'weights': [0.25, 0.4, 0.25, 0.1]}
+[13:36:18] START G7_2 seed2  cond={'norm_mode': 'minmax', 'gamma': 0.7, 'sync_mode': 'episode', 'sync_freq': 10, 'weights': [0.25, 0.4, 0.25, 0.1]}
+[13:36:18] START G9_1 seed1  cond={'norm_mode': 'minmax', 'gamma': 0.9, 'sync_mode': 'step', 'sync_freq': 10, 'weights': [0.25, 0.4, 0.25, 0.1]}
+[13:36:18] START G9_2 seed2  cond={'norm_mode': 'minmax', 'gamma': 0.9, 'sync_mode': 'episode', 'sync_freq': 10, 'weights': [0.25, 0.4, 0.25, 0.1]}
+[13:41:26]     [G7_2 s1] ep 100/500 loss=0.01161 reward=101.7 eps=0.800 updates=25130
+[13:41:29]     [G9_1 s1] ep 100/500 loss=0.08779 reward=103.5 eps=0.800 updates=25130
+[13:41:29]     [G9_2 s1] ep 100/500 loss=0.03725 reward=104.4 eps=0.800 updates=25130
+[13:41:30]     [G7_1 s1] ep 100/500 loss=0.01302 reward=99.6 eps=0.800 updates=25130
+[13:42:28]     [G7_1 s2] ep 100/500 loss=0.01228 reward=61.9 eps=0.800 updates=29990
+[13:42:28]     [G9_1 s2] ep 100/500 loss=0.06494 reward=61.3 eps=0.800 updates=29990
+[13:42:30]     [G9_2 s2] ep 100/500 loss=0.04040 reward=60.6 eps=0.800 updates=29990
+[13:42:30]     [G7_2 s2] ep 100/500 loss=0.01172 reward=62.2 eps=0.800 updates=29990
+[13:47:20]     [G9_1 s2] ep 200/500 loss=0.07106 reward=105.5 eps=0.600 updates=53490
+[13:47:21]     [G7_1 s2] ep 200/500 loss=0.00919 reward=107.3 eps=0.600 updates=53490
+[13:47:23]     [G9_2 s2] ep 200/500 loss=0.03191 reward=103.6 eps=0.600 updates=53490
+[13:47:23]     [G7_2 s2] ep 200/500 loss=0.00793 reward=105.9 eps=0.600 updates=53490
+[13:47:39]     [G7_2 s1] ep 200/500 loss=0.00621 reward=103.8 eps=0.600 updates=55200
+[13:47:42]     [G9_1 s1] ep 200/500 loss=0.04792 reward=104.9 eps=0.600 updates=55200
+[13:47:44]     [G9_2 s1] ep 200/500 loss=0.03219 reward=107.2 eps=0.600 updates=55200
+[13:47:45]     [G7_1 s1] ep 200/500 loss=0.00912 reward=105.4 eps=0.600 updates=55200
+[13:53:23]     [G9_1 s2] ep 300/500 loss=0.04164 reward=156.1 eps=0.400 updates=82690
+[13:53:24]     [G7_1 s2] ep 300/500 loss=0.00583 reward=156.6 eps=0.400 updates=82690
+[13:53:26]     [G7_2 s2] ep 300/500 loss=0.00499 reward=154.2 eps=0.400 updates=82690
+[13:53:26]     [G9_2 s2] ep 300/500 loss=0.01804 reward=155.8 eps=0.400 updates=82690
+[13:54:24]     [G7_2 s1] ep 300/500 loss=0.00500 reward=49.8 eps=0.400 updates=88030
+[13:54:28]     [G9_1 s1] ep 300/500 loss=0.02372 reward=50.8 eps=0.400 updates=88030
+[13:54:32]     [G9_2 s1] ep 300/500 loss=0.02346 reward=50.3 eps=0.400 updates=88030
+[13:54:33]     [G7_1 s1] ep 300/500 loss=0.00561 reward=51.2 eps=0.400 updates=88030
+[13:59:36]     [G7_2 s1] ep 400/500 loss=0.00466 reward=226.4 eps=0.200 updates=112940
+[13:59:39]     [G9_1 s1] ep 400/500 loss=0.07556 reward=227.1 eps=0.200 updates=112940
+[13:59:44]     [G9_2 s1] ep 400/500 loss=0.04106 reward=222.8 eps=0.200 updates=112940
+[13:59:45]     [G7_1 s1] ep 400/500 loss=0.00498 reward=227.3 eps=0.200 updates=112940
+[13:59:48]     [G9_1 s2] ep 400/500 loss=0.03142 reward=78.3 eps=0.200 updates=113630
+[13:59:49]     [G7_1 s2] ep 400/500 loss=0.00560 reward=73.7 eps=0.200 updates=113630
+[13:59:51]     [G9_2 s2] ep 400/500 loss=0.02465 reward=75.7 eps=0.200 updates=113630
+[13:59:52]     [G7_2 s2] ep 400/500 loss=0.00600 reward=74.0 eps=0.200 updates=113630
+[14:05:39]     [G7_2 s1] ep 500/500 loss=0.00487 reward=329.6 eps=0.200 updates=142110
+[14:05:42]     [G9_1 s1] ep 500/500 loss=0.04341 reward=332.4 eps=0.200 updates=142110
+[14:05:43]     [G9_1 s2] ep 500/500 loss=0.04415 reward=226.6 eps=0.200 updates=142110
+[14:05:44]     [G7_1 s2] ep 500/500 loss=0.00478 reward=231.3 eps=0.200 updates=142110
+[14:05:45]     [G9_2 s2] ep 500/500 loss=0.02268 reward=231.7 eps=0.200 updates=142110
+[14:05:45]     [G9_2 s1] ep 500/500 loss=0.03693 reward=326.5 eps=0.200 updates=142110
+[14:05:46]     [G7_2 s2] ep 500/500 loss=0.00499 reward=228.3 eps=0.200 updates=142110
+[14:05:47]     [G7_1 s1] ep 500/500 loss=0.00667 reward=332.4 eps=0.200 updates=142110
+[14:05:53] DONE G7_2 seed1  overflow=0.000 max_level=8.255 act0_lock=0.000 i100=270.9  (1775s)
+>>> 1/8 done
+[14:05:54] DONE G9_1 seed1  overflow=0.300 max_level=9.403 act0_lock=0.000 i100=275.9  (1776s)
+>>> 2/8 done
+[14:05:55] DONE G9_1 seed2  overflow=0.000 max_level=8.291 act0_lock=0.000 i100=276.7  (1777s)
+>>> 3/8 done
+[14:05:55] DONE G7_1 seed2  overflow=0.000 max_level=8.142 act0_lock=0.000 i100=237.3  (1777s)
+>>> 4/8 done
+[14:05:55] DONE G9_2 seed2  overflow=0.000 max_level=8.058 act0_lock=0.000 i100=291.9  (1777s)
+>>> 5/8 done
+[14:05:56] DONE G9_2 seed1  overflow=0.400 max_level=9.432 act0_lock=0.000 i100=279.7  (1778s)
+>>> 6/8 done
+[14:05:56] DONE G7_2 seed2  overflow=0.467 max_level=9.290 act0_lock=0.000 i100=208.0  (1778s)
+>>> 7/8 done
+[14:05:56] DONE G7_1 seed1  overflow=0.000 max_level=8.388 act0_lock=0.000 i100=232.8  (1778s)
+>>> 8/8 done
+
+=== E3 ablation (mean over seeds) ===
+      overflow_rate  mean_max_level_m  action0_lock_rate  mean_n_intervals_100  mean_n_switches
+tag                                                                                            
+G7_1        0.00000           8.26495                0.0               235.050           14.330
+G7_2        0.23335           8.77290                0.0               239.420           15.820
+G9_1        0.15000           8.84705                0.0               276.330           26.185
+G9_2        0.20000           8.74525                0.0               285.785           28.765

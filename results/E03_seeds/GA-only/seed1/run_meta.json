@@ -1,0 +1,33 @@
+{
+  "exp_id": "E03",
+  "model": "GA-only",
+  "seed": 1,
+  "git_commit": "cafbfa7a4cc4ebbb89461631525d22aca35478ee",
+  "started_at": "2026-08-29T13:38:34.792171+00:00",
+  "finished_at": "2026-08-29T19:08:08.088820+00:00",
+  "elapsed_train_s": null,
+  "hyperparams": {},
+  "reward_weights": {
+    "w1": 0.4,
+    "w2": 0.25,
+    "w3": 0.25,
+    "w4": 0.1
+  },
+  "heuristic_params": {
+    "type": "GA",
+    "population_size": 100,
+    "num_generations": 100,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.01
+  },
+  "data": {
+    "train_n": 3996,
+    "test_n": 2700,
+    "split_seed": 42,
+    "split_file": "data/splits/fixed_split_seed42.json"
+  },
+  "versions": {
+    "python": "3.9.16 | packaged by conda-forge | (main, Feb  1 2023, 21:39:03) \n[GCC 11.3.0]",
+    "torch": "2.0.1+cu117"
+  }
+}

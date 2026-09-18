@@ -1,0 +1,9 @@
+model,metric,raw_value,score,old_ga_guided_switching
+Regular DQN,Water Level Safety,4.843037,0.973012,
+Regular DQN,Switching Stability,7.851111,0.000000,91.495185
+Regular DQN,Energy Efficiency,185430.014815,0.000000,
+Regular DQN,Dry-running Safety,5.764074,0.000000,
+Switching-focused GA-guided DQN,Water Level Safety,10.000000,0.000000,
+Switching-focused GA-guided DQN,Switching Stability,0.000000,1.000000,91.495185
+Switching-focused GA-guided DQN,Energy Efficiency,0.000000,1.000000,
+Switching-focused GA-guided DQN,Dry-running Safety,0.000000,1.000000,

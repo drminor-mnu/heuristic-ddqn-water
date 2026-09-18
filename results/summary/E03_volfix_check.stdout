@@ -1,0 +1,23 @@
+cuda
+
+tests: 30
+Genetic Test #0tests: 30
+Genetic Test #0tests: 30
+PSO Test #0tests: 30
+PSO Test #0PSO Test #1PSO Test #1PSO Test #2PSO Test #2PSO Test #3PSO Test #3PSO Test #4PSO Test #4PSO Test #5PSO Test #5Genetic Test #1Genetic Test #1Genetic Test #2Genetic Test #2PSO Test #6PSO Test #6PSO Test #7PSO Test #7PSO Test #8PSO Test #8PSO Test #9PSO Test #9PSO Test #10PSO Test #10Genetic Test #3Genetic Test #3PSO Test #11PSO Test #11PSO Test #12PSO Test #12PSO Test #13PSO Test #13PSO Test #14PSO Test #14PSO Test #15PSO Test #15PSO Test #16PSO Test #16Genetic Test #4Genetic Test #4PSO Test #17PSO Test #17PSO Test #18PSO Test #18PSO Test #19PSO Test #19Genetic Test #5Genetic Test #5PSO Test #20PSO Test #20PSO Test #21PSO Test #21PSO Test #22PSO Test #22PSO Test #23PSO Test #23PSO Test #24PSO Test #24PSO Test #25PSO Test #25PSO Test #26PSO Test #26PSO Test #27PSO Test #27PSO Test #28PSO Test #28PSO Test #29PSO Test #29>>> {'algo': 'PSO', 'seed': 1, 'overflow': 1.0, 'max_level': 10.0, 'min_max': 10, 'act0_lock': 1.0, 'n_switches': 0.0, 'i100': 0.0, 'i170': 0.0, 'dry': 0.0, 'sec': 15.5}
+>>> {'algo': 'PSO', 'seed': 2, 'overflow': 1.0, 'max_level': 10.0, 'min_max': 10, 'act0_lock': 1.0, 'n_switches': 0.0, 'i100': 0.0, 'i170': 0.0, 'dry': 0.0, 'sec': 15.5}
+Genetic Test #6Genetic Test #6Genetic Test #7Genetic Test #7Genetic Test #8Genetic Test #8Genetic Test #9Genetic Test #9Genetic Test #10Genetic Test #10Genetic Test #11Genetic Test #11Genetic Test #12Genetic Test #12Genetic Test #13Genetic Test #13Genetic Test #14Genetic Test #14Genetic Test #15Genetic Test #15Genetic Test #16Genetic Test #16Genetic Test #17Genetic Test #17Genetic Test #18Genetic Test #18Genetic Test #19Genetic Test #19Genetic Test #20Genetic Test #20Genetic Test #21Genetic Test #21Genetic Test #22Genetic Test #22Genetic Test #23Genetic Test #23Genetic Test #24Genetic Test #24Genetic Test #25Genetic Test #25Genetic Test #26Genetic Test #26Genetic Test #27Genetic Test #27Genetic Test #28Genetic Test #28Genetic Test #29Genetic Test #29>>> {'algo': 'GA', 'seed': 2, 'overflow': 1.0, 'max_level': 10.0, 'min_max': 10, 'act0_lock': 1.0, 'n_switches': 0.0, 'i100': 0.0, 'i170': 0.0, 'dry': 0.0, 'sec': 152.1}
+>>> {'algo': 'GA', 'seed': 1, 'overflow': 1.0, 'max_level': 10.0, 'min_max': 10, 'act0_lock': 1.0, 'n_switches': 0.0, 'i100': 0.0, 'i170': 0.0, 'dry': 0.0, 'sec': 153.2}
+
+
+
+
+
+algo  seed  overflow  max_level  min_max  act0_lock  n_switches  i100  i170  dry   sec
+  GA     1       1.0       10.0       10        1.0         0.0   0.0   0.0  0.0 153.2
+  GA     2       1.0       10.0       10        1.0         0.0   0.0   0.0  0.0 152.1
+ PSO     1       1.0       10.0       10        1.0         0.0   0.0   0.0  0.0  15.5
+ PSO     2       1.0       10.0       10        1.0         0.0   0.0   0.0  0.0  15.5
+
+manuscript GA-only: max_level 5.783, n_switches 43.66, dry 0.05, NON-flood
+weights = [0.25, 0.4, 0.25, 0.1] (current, unchanged)

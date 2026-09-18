@@ -1,0 +1,30 @@
+{
+  "experiment": "dqn_guided_GA_w0_15_w0_6_w0_15_w0_1_ga0_6_min2_tr0_6_acttype0",
+  "model": "trained_models/dqn_guided_GA_w0_15_w0_6_w0_15_w0_1_ga0_6_min2_tr0_6_acttype0.pkl",
+  "parameters": {
+    "act_type": 0,
+    "batch_size": 20,
+    "epochs": 1,
+    "eps_end": 0.05,
+    "eps_start": 0.3,
+    "ga_end": 0.0,
+    "ga_start": 0.6,
+    "gamma": 0.1,
+    "learning_rate": 0.001,
+    "minutes": 2,
+    "sync_freq": 200,
+    "weights": [
+      0.15,
+      0.6,
+      0.15,
+      0.1
+    ]
+  },
+  "result": "results/dqn_guided_GA_w0_15_w0_6_w0_15_w0_1_ga0_6_min2_tr0_6_acttype0.csv",
+  "seed": 20260726,
+  "test_count": 2700,
+  "test_paths_sha256": "ba62b76bc46cf91b2a4167e9644e649732f86d74bfc07e2b33aa6380fcda2b8a",
+  "train_count": 3996,
+  "train_paths_sha256": "ec9a44a3641d2e347bad6684d310335c474bf73cb703d11bef5e65174ceb7734",
+  "training_elapsed_seconds": 12008.466153141111
+}

@@ -1,0 +1,4 @@
+﻿model,mean_ms_per_decision,sd_ms_per_decision,n_repeats,values,source
+ENUM,0.0420,0.0011,3,0.0432;0.0413;0.0414,"src/run_table17_timing.py (this script, new measurement)"
+PSO,1.4106,0.0063,3,1.4167;1.4109;1.4042,"results/summary/E10_unified_c_summary.csv (PSO-only row, reused verbatim -- same (c) basis as Figure 10)"
+GA,19.9324,0.1072,3,20.0529;19.8967;19.8476,"results/summary/E10_unified_c_summary.csv (GA-only row, reused verbatim -- same (c) basis as Figure 10)"

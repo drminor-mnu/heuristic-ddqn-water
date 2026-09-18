@@ -1,0 +1,5 @@
+guide,seed,n_train,n_test,overflow_rate,mean_max_level_m,action0_lock_rate,mean_n_intervals_100,mean_n_intervals_170,mean_n_switches,mean_dryrun_proxy,elapsed_s
+PSO,1,500,30,1.0,10.0,1.0,0.0,0.0,0.0,0.0,513.4
+PSO,2,500,30,1.0,10.0,1.0,0.0,0.0,0.0,0.0,513.7
+GA,2,500,30,1.0,10.0,0.4,81.3,1.1,0.9,0.0333,1256.7
+GA,1,500,30,1.0,10.0,0.8667,11.77,3.6,0.9,0.2333,1262.6

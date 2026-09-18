@@ -1,0 +1,7 @@
+[2026-09-01T15:45:54] 6 pending task(s), train_n=160, workers=2
+[2026-09-01T15:57:57] DONE Regular seed2: 2700 rows in 722.2s
+[2026-09-01T15:57:57] DONE Regular seed1: 2700 rows in 722.5s
+[2026-09-01T16:09:34] DONE Regular seed3: 2700 rows in 697.3s
+[2026-09-01T16:15:13] DONE GA-guided seed1: 2700 rows in 1035.9s
+[2026-09-01T16:26:42] DONE GA-guided seed2: 2700 rows in 1027.5s
+[2026-09-01T16:31:55] DONE GA-guided seed3: 2700 rows in 1001.7s

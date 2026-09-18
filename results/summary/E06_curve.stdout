@@ -1,0 +1,1353 @@
+tasks=40  w1 grid=[0.2, 0.25, 0.27, 0.29, 0.31, 0.33, 0.35, 0.4, 0.45, 0.5]  (w2=w3=0.25, w4=0.1)
+cuda
+
+tests: 30
+
+Genetic Test #0cuda
+
+tests: 30
+
+PSO Test #0cuda
+
+tests: 30
+
+Genetic Test #0cuda
+
+tests: 30
+
+Genetic Test #0cuda
+
+tests: 30
+
+PSO Test #0cuda
+
+tests: 30
+
+PSO Test #0cuda
+
+tests: 30
+
+Genetic Test #0cuda
+
+tests: 30
+
+PSO Test #0
+PSO Test #1
+PSO Test #1
+PSO Test #1
+PSO Test #1
+PSO Test #2
+PSO Test #2
+PSO Test #2
+PSO Test #2
+PSO Test #3
+PSO Test #3
+PSO Test #3
+PSO Test #3
+PSO Test #4
+PSO Test #4
+PSO Test #4
+PSO Test #4
+PSO Test #5
+Genetic Test #1
+PSO Test #5
+PSO Test #5
+Genetic Test #1
+PSO Test #5
+Genetic Test #1
+Genetic Test #1
+Genetic Test #2
+Genetic Test #2
+PSO Test #6
+PSO Test #6
+PSO Test #6
+Genetic Test #2
+PSO Test #7
+PSO Test #6
+PSO Test #7
+PSO Test #7
+Genetic Test #2
+PSO Test #7
+PSO Test #8
+PSO Test #8
+PSO Test #8
+PSO Test #9
+PSO Test #8
+PSO Test #9
+PSO Test #9
+PSO Test #9
+PSO Test #10
+PSO Test #10
+PSO Test #10
+PSO Test #10
+Genetic Test #3
+Genetic Test #3
+PSO Test #11
+PSO Test #11
+PSO Test #11
+Genetic Test #3
+PSO Test #11
+Genetic Test #3
+PSO Test #12
+PSO Test #12
+PSO Test #12
+PSO Test #12
+PSO Test #13
+PSO Test #13
+PSO Test #13
+PSO Test #13
+PSO Test #14
+PSO Test #14
+PSO Test #14
+PSO Test #15
+PSO Test #14
+PSO Test #15
+PSO Test #15
+PSO Test #15
+PSO Test #16
+PSO Test #16
+PSO Test #16
+PSO Test #16
+Genetic Test #4
+Genetic Test #4
+Genetic Test #4
+PSO Test #17
+PSO Test #17
+PSO Test #17
+Genetic Test #4
+PSO Test #17
+PSO Test #18
+PSO Test #18
+PSO Test #18
+PSO Test #18
+PSO Test #19
+PSO Test #19
+PSO Test #19
+Genetic Test #5
+Genetic Test #5
+PSO Test #19
+PSO Test #20
+PSO Test #20
+PSO Test #20
+PSO Test #21
+PSO Test #21
+PSO Test #21
+PSO Test #20
+PSO Test #22
+PSO Test #21
+PSO Test #22
+PSO Test #22
+PSO Test #22
+PSO Test #23
+PSO Test #23
+PSO Test #23
+PSO Test #23
+PSO Test #24
+PSO Test #24
+PSO Test #24
+Genetic Test #5
+PSO Test #24
+Genetic Test #5
+PSO Test #25
+PSO Test #25
+PSO Test #25
+PSO Test #26
+PSO Test #26
+PSO Test #26
+PSO Test #25
+PSO Test #27
+PSO Test #27
+PSO Test #27
+PSO Test #26
+PSO Test #27
+PSO Test #28
+PSO Test #28
+PSO Test #28
+PSO Test #29
+PSO Test #29
+PSO Test #29
+PSO Test #28>>> 1/40 w1=0.20 (w1-w2=-0.05) PSO  s1  ovf=1.0 maxlvl=10.000 nsw=0.0 dry=0.000  (16.4s)
+
+tests: 30
+
+Genetic Test #0>>> 2/40 w1=0.25 (w1-w2=+0.00) PSO  s1  ovf=1.0 maxlvl=10.000 nsw=12.7 dry=0.000  (16.5s)
+
+tests: 30
+
+Genetic Test #0
+PSO Test #29>>> 3/40 w1=0.20 (w1-w2=-0.05) PSO  s2  ovf=1.0 maxlvl=10.000 nsw=0.0 dry=0.000  (16.5s)
+
+tests: 30
+
+PSO Test #0
+PSO Test #1
+PSO Test #2>>> 4/40 w1=0.25 (w1-w2=+0.00) PSO  s2  ovf=1.0 maxlvl=10.000 nsw=12.8 dry=0.000  (16.8s)
+
+tests: 30
+
+PSO Test #0
+PSO Test #1
+PSO Test #3
+PSO Test #2
+PSO Test #3
+PSO Test #4
+PSO Test #5
+PSO Test #4
+Genetic Test #1
+Genetic Test #1
+PSO Test #5
+Genetic Test #2
+PSO Test #6
+Genetic Test #2
+PSO Test #7
+PSO Test #6
+PSO Test #7
+PSO Test #8
+PSO Test #9
+PSO Test #8
+PSO Test #9
+PSO Test #10
+PSO Test #10
+Genetic Test #3
+PSO Test #11
+PSO Test #11
+Genetic Test #3
+PSO Test #12
+PSO Test #12
+PSO Test #13
+PSO Test #13
+PSO Test #14
+PSO Test #14
+PSO Test #15
+PSO Test #15
+PSO Test #16
+PSO Test #16
+PSO Test #17
+Genetic Test #4
+PSO Test #17
+Genetic Test #4
+Genetic Test #6
+PSO Test #18
+PSO Test #18
+PSO Test #19
+PSO Test #19
+Genetic Test #6
+PSO Test #20
+PSO Test #20
+PSO Test #21
+PSO Test #21
+PSO Test #22
+PSO Test #22
+Genetic Test #7
+PSO Test #23
+PSO Test #23
+Genetic Test #7
+PSO Test #24
+Genetic Test #6
+PSO Test #24
+Genetic Test #5
+Genetic Test #5
+Genetic Test #6
+PSO Test #25
+PSO Test #25
+PSO Test #26
+Genetic Test #7
+PSO Test #26
+PSO Test #27
+PSO Test #27
+Genetic Test #7
+PSO Test #28
+PSO Test #28
+PSO Test #29
+PSO Test #29>>> 5/40 w1=0.27 (w1-w2=+0.02) PSO  s2  ovf=0.0333 maxlvl=9.409 nsw=13.6 dry=0.000  (16.7s)
+
+tests: 30
+
+Genetic Test #0
+Genetic Test #8>>> 6/40 w1=0.27 (w1-w2=+0.02) PSO  s1  ovf=0.0333 maxlvl=9.409 nsw=13.5 dry=0.000  (17.2s)
+
+tests: 30
+
+Genetic Test #0
+Genetic Test #8
+Genetic Test #1
+Genetic Test #1
+Genetic Test #9
+Genetic Test #8
+Genetic Test #9
+Genetic Test #8
+Genetic Test #2
+Genetic Test #2
+Genetic Test #9
+Genetic Test #9
+Genetic Test #3
+Genetic Test #3
+Genetic Test #4
+Genetic Test #4
+Genetic Test #5
+Genetic Test #5
+Genetic Test #10
+Genetic Test #10
+Genetic Test #6
+Genetic Test #6
+Genetic Test #7
+Genetic Test #7
+Genetic Test #10
+Genetic Test #10
+Genetic Test #8
+Genetic Test #8
+Genetic Test #9
+Genetic Test #9
+Genetic Test #11
+Genetic Test #11
+Genetic Test #11
+Genetic Test #11
+Genetic Test #12
+Genetic Test #12
+Genetic Test #6
+Genetic Test #6
+Genetic Test #7
+Genetic Test #7
+Genetic Test #12
+Genetic Test #10
+Genetic Test #12
+Genetic Test #10
+Genetic Test #8
+Genetic Test #8
+Genetic Test #13
+Genetic Test #9
+Genetic Test #13
+Genetic Test #9
+Genetic Test #13
+Genetic Test #11
+Genetic Test #13
+Genetic Test #11
+Genetic Test #10
+Genetic Test #12
+Genetic Test #12
+Genetic Test #10
+Genetic Test #14
+Genetic Test #14
+Genetic Test #15
+Genetic Test #15
+Genetic Test #16
+Genetic Test #14
+Genetic Test #13
+Genetic Test #11
+Genetic Test #16
+Genetic Test #13
+Genetic Test #11
+Genetic Test #14
+Genetic Test #15
+Genetic Test #15
+Genetic Test #16
+Genetic Test #12
+Genetic Test #16
+Genetic Test #12
+Genetic Test #17
+Genetic Test #13
+Genetic Test #17
+Genetic Test #14
+Genetic Test #13
+Genetic Test #14
+Genetic Test #15
+Genetic Test #15
+Genetic Test #17
+Genetic Test #16
+Genetic Test #18
+Genetic Test #16
+Genetic Test #17
+Genetic Test #18
+Genetic Test #19
+Genetic Test #19
+Genetic Test #20
+Genetic Test #20
+Genetic Test #18
+Genetic Test #21
+Genetic Test #21
+Genetic Test #14
+Genetic Test #18
+Genetic Test #14
+Genetic Test #22
+Genetic Test #19
+Genetic Test #22
+Genetic Test #15
+Genetic Test #15
+Genetic Test #19
+Genetic Test #23
+Genetic Test #23
+Genetic Test #20
+Genetic Test #16
+Genetic Test #17
+Genetic Test #24
+Genetic Test #16
+Genetic Test #17
+Genetic Test #20
+Genetic Test #21
+Genetic Test #24
+Genetic Test #21
+Genetic Test #22
+Genetic Test #22
+Genetic Test #23
+Genetic Test #18
+Genetic Test #23
+Genetic Test #18
+Genetic Test #24
+Genetic Test #25
+Genetic Test #19
+Genetic Test #24
+Genetic Test #19
+Genetic Test #25
+Genetic Test #26
+Genetic Test #17
+Genetic Test #20
+Genetic Test #26
+Genetic Test #20
+Genetic Test #17
+Genetic Test #27
+Genetic Test #21
+Genetic Test #27
+Genetic Test #21
+Genetic Test #22
+Genetic Test #28
+Genetic Test #22
+Genetic Test #29
+Genetic Test #28
+Genetic Test #25
+Genetic Test #29
+Genetic Test #18
+Genetic Test #23
+Genetic Test #23
+Genetic Test #25
+Genetic Test #18>>> 7/40 w1=0.20 (w1-w2=-0.05) GA   s1  ovf=1.0 maxlvl=10.000 nsw=0.0 dry=0.000  (167.4s)
+
+tests: 30
+
+PSO Test #0
+PSO Test #1
+PSO Test #2
+PSO Test #3
+PSO Test #4
+PSO Test #5
+Genetic Test #26>>> 8/40 w1=0.20 (w1-w2=-0.05) GA   s2  ovf=1.0 maxlvl=10.000 nsw=0.0 dry=0.000  (168.8s)
+
+tests: 30
+
+PSO Test #0
+PSO Test #1
+PSO Test #2
+PSO Test #3
+Genetic Test #19
+Genetic Test #24
+PSO Test #4
+PSO Test #5
+PSO Test #6
+PSO Test #7
+Genetic Test #24
+PSO Test #8
+Genetic Test #26
+PSO Test #9
+Genetic Test #27
+Genetic Test #19
+PSO Test #6
+PSO Test #7
+PSO Test #10
+PSO Test #8
+PSO Test #9
+PSO Test #11
+Genetic Test #27
+Genetic Test #20
+PSO Test #12
+PSO Test #10
+PSO Test #13
+PSO Test #11
+Genetic Test #20
+PSO Test #12
+Genetic Test #21
+Genetic Test #28
+PSO Test #14
+PSO Test #13
+PSO Test #15
+PSO Test #16
+Genetic Test #21
+Genetic Test #29
+PSO Test #14
+Genetic Test #28
+PSO Test #15
+PSO Test #17
+PSO Test #16
+Genetic Test #22
+PSO Test #18
+PSO Test #19
+Genetic Test #29
+PSO Test #20
+PSO Test #17
+PSO Test #21
+PSO Test #22
+Genetic Test #22
+PSO Test #23
+PSO Test #18
+PSO Test #24>>> 9/40 w1=0.25 (w1-w2=+0.00) GA   s1  ovf=1.0 maxlvl=10.000 nsw=12.8 dry=0.000  (181.7s)
+
+tests: 30
+
+Genetic Test #0
+PSO Test #19
+PSO Test #20
+PSO Test #21
+PSO Test #22
+PSO Test #25
+Genetic Test #23
+PSO Test #23
+Genetic Test #1
+PSO Test #26
+PSO Test #24
+PSO Test #27
+Genetic Test #25
+PSO Test #28>>> 10/40 w1=0.25 (w1-w2=+0.00) GA   s2  ovf=1.0 maxlvl=10.000 nsw=12.9 dry=0.000  (183.9s)
+
+tests: 30
+
+Genetic Test #0
+PSO Test #29>>> 11/40 w1=0.29 (w1-w2=+0.04) PSO  s1  ovf=0.0 maxlvl=8.747 nsw=14.9 dry=0.000  (17.0s)
+
+tests: 30
+
+PSO Test #0
+Genetic Test #25
+PSO Test #1
+PSO Test #25
+PSO Test #2
+Genetic Test #2
+Genetic Test #23
+PSO Test #26
+PSO Test #3
+PSO Test #27
+PSO Test #4
+Genetic Test #1
+PSO Test #28
+PSO Test #5
+PSO Test #29>>> 12/40 w1=0.29 (w1-w2=+0.04) PSO  s2  ovf=0.0 maxlvl=8.747 nsw=14.9 dry=0.000  (17.4s)
+
+tests: 30
+
+PSO Test #0
+PSO Test #1
+PSO Test #2
+PSO Test #3
+Genetic Test #24
+Genetic Test #2
+PSO Test #4
+PSO Test #6
+Genetic Test #26
+PSO Test #5
+PSO Test #7
+Genetic Test #3
+PSO Test #8
+PSO Test #9
+Genetic Test #26
+Genetic Test #24
+PSO Test #6
+PSO Test #7
+PSO Test #10
+PSO Test #8
+Genetic Test #27
+PSO Test #9
+Genetic Test #3
+PSO Test #11
+Genetic Test #27
+PSO Test #12
+PSO Test #10
+PSO Test #13
+PSO Test #11
+PSO Test #12
+Genetic Test #4
+PSO Test #14
+PSO Test #13
+PSO Test #15
+PSO Test #16
+Genetic Test #28
+PSO Test #14
+Genetic Test #4
+PSO Test #15
+PSO Test #17
+Genetic Test #5
+Genetic Test #28
+PSO Test #16
+Genetic Test #29
+PSO Test #18
+PSO Test #19
+PSO Test #20
+Genetic Test #29
+PSO Test #17
+PSO Test #21
+PSO Test #22
+PSO Test #23
+Genetic Test #5
+PSO Test #18
+PSO Test #24
+PSO Test #19
+PSO Test #20
+PSO Test #21
+PSO Test #22
+PSO Test #25
+PSO Test #23
+Genetic Test #25
+PSO Test #26>>> 13/40 w1=0.27 (w1-w2=+0.02) GA   s2  ovf=0.0333 maxlvl=9.409 nsw=13.5 dry=0.000  (184.1s)
+
+tests: 30
+
+Genetic Test #0
+PSO Test #24
+PSO Test #27
+PSO Test #28
+PSO Test #29>>> 14/40 w1=0.27 (w1-w2=+0.02) GA   s1  ovf=0.0333 maxlvl=9.409 nsw=13.5 dry=0.000  (185.1s)
+
+tests: 30
+
+Genetic Test #0>>> 15/40 w1=0.31 (w1-w2=+0.06) PSO  s1  ovf=0.0 maxlvl=8.125 nsw=18.5 dry=0.000  (17.3s)
+
+tests: 30
+
+PSO Test #0
+PSO Test #1
+PSO Test #25
+PSO Test #2
+Genetic Test #1
+PSO Test #26
+PSO Test #3
+PSO Test #27
+Genetic Test #25
+PSO Test #4
+PSO Test #28
+PSO Test #5
+PSO Test #29
+Genetic Test #1>>> 16/40 w1=0.31 (w1-w2=+0.06) PSO  s2  ovf=0.0 maxlvl=8.125 nsw=18.5 dry=0.000  (17.1s)
+
+tests: 30
+
+PSO Test #0
+Genetic Test #2
+PSO Test #1
+PSO Test #2
+PSO Test #3
+Genetic Test #26
+PSO Test #4
+Genetic Test #2
+PSO Test #6
+PSO Test #5
+PSO Test #7
+PSO Test #8
+PSO Test #9
+PSO Test #6
+PSO Test #7
+Genetic Test #3
+PSO Test #10
+Genetic Test #26
+Genetic Test #27
+PSO Test #8
+PSO Test #9
+PSO Test #11
+Genetic Test #3
+PSO Test #12
+PSO Test #10
+Genetic Test #27
+PSO Test #13
+PSO Test #11
+PSO Test #12
+PSO Test #13
+PSO Test #14
+PSO Test #15
+PSO Test #16
+Genetic Test #28
+Genetic Test #4
+PSO Test #14
+PSO Test #15
+Genetic Test #4
+PSO Test #16
+PSO Test #17
+Genetic Test #29
+Genetic Test #6
+PSO Test #18
+Genetic Test #28
+PSO Test #19
+PSO Test #20
+Genetic Test #5
+PSO Test #17
+PSO Test #21
+Genetic Test #7
+PSO Test #22
+PSO Test #23
+PSO Test #18
+Genetic Test #29
+PSO Test #24
+Genetic Test #5
+PSO Test #19
+PSO Test #20
+PSO Test #21
+Genetic Test #6
+PSO Test #22>>> 17/40 w1=0.29 (w1-w2=+0.04) GA   s1  ovf=0.0 maxlvl=8.747 nsw=14.9 dry=0.000  (183.6s)
+
+tests: 30
+
+Genetic Test #0
+PSO Test #25
+PSO Test #23
+PSO Test #26
+PSO Test #24
+PSO Test #27
+Genetic Test #7
+PSO Test #28
+PSO Test #29
+Genetic Test #1>>> 18/40 w1=0.33 (w1-w2=+0.08) PSO  s1  ovf=0.0 maxlvl=7.677 nsw=22.2 dry=0.000  (17.0s)
+
+tests: 30
+
+Genetic Test #0
+Genetic Test #8
+PSO Test #25
+PSO Test #26
+PSO Test #27>>> 19/40 w1=0.29 (w1-w2=+0.04) GA   s2  ovf=0.0 maxlvl=8.747 nsw=14.9 dry=0.000  (186.1s)
+
+tests: 30
+
+PSO Test #0
+PSO Test #28
+PSO Test #1
+PSO Test #29
+PSO Test #2
+Genetic Test #2
+Genetic Test #1
+PSO Test #3>>> 20/40 w1=0.33 (w1-w2=+0.08) PSO  s2  ovf=0.0 maxlvl=7.677 nsw=22.2 dry=0.000  (17.1s)
+
+tests: 30
+
+PSO Test #0
+PSO Test #1
+PSO Test #2
+PSO Test #4
+PSO Test #3
+PSO Test #5
+Genetic Test #9
+PSO Test #4
+PSO Test #5
+Genetic Test #2
+Genetic Test #8
+PSO Test #6
+PSO Test #7
+Genetic Test #3
+PSO Test #8
+PSO Test #6
+PSO Test #9
+PSO Test #7
+PSO Test #8
+PSO Test #9
+Genetic Test #9
+PSO Test #10
+Genetic Test #3
+PSO Test #10
+PSO Test #11
+PSO Test #11
+PSO Test #12
+PSO Test #12
+PSO Test #13
+PSO Test #13
+Genetic Test #4
+PSO Test #14
+PSO Test #15
+PSO Test #16
+PSO Test #14
+PSO Test #15
+Genetic Test #4
+PSO Test #16
+PSO Test #17
+Genetic Test #5
+PSO Test #17
+PSO Test #18
+Genetic Test #6
+PSO Test #19
+PSO Test #20
+PSO Test #18
+PSO Test #21
+Genetic Test #5
+PSO Test #22
+PSO Test #19
+Genetic Test #6
+PSO Test #20
+PSO Test #23
+PSO Test #21
+Genetic Test #7
+PSO Test #24
+PSO Test #22
+PSO Test #23
+Genetic Test #10
+PSO Test #24
+Genetic Test #7
+PSO Test #25
+PSO Test #26
+PSO Test #27
+PSO Test #25
+PSO Test #28
+PSO Test #26
+PSO Test #29
+PSO Test #27>>> 21/40 w1=0.35 (w1-w2=+0.10) PSO  s1  ovf=0.0 maxlvl=7.231 nsw=28.7 dry=0.000  (17.1s)
+
+tests: 30
+
+Genetic Test #0
+PSO Test #28
+PSO Test #29
+Genetic Test #8>>> 22/40 w1=0.35 (w1-w2=+0.10) PSO  s2  ovf=0.0 maxlvl=7.231 nsw=28.8 dry=0.000  (17.1s)
+
+tests: 30
+
+Genetic Test #0
+Genetic Test #10
+Genetic Test #1
+Genetic Test #8
+Genetic Test #1
+Genetic Test #9
+Genetic Test #2
+Genetic Test #2
+Genetic Test #9
+Genetic Test #3
+Genetic Test #3
+Genetic Test #11
+Genetic Test #11
+Genetic Test #4
+Genetic Test #6
+Genetic Test #4
+Genetic Test #7
+Genetic Test #6
+Genetic Test #5
+Genetic Test #12
+Genetic Test #5
+Genetic Test #7
+Genetic Test #10
+Genetic Test #8
+Genetic Test #10
+Genetic Test #12
+Genetic Test #8
+Genetic Test #9
+Genetic Test #9
+Genetic Test #13
+Genetic Test #11
+Genetic Test #11
+Genetic Test #13
+Genetic Test #6
+Genetic Test #10
+Genetic Test #6
+Genetic Test #12
+Genetic Test #7
+Genetic Test #7
+Genetic Test #10
+Genetic Test #12
+Genetic Test #8
+Genetic Test #8
+Genetic Test #9
+Genetic Test #9
+Genetic Test #14
+Genetic Test #11
+Genetic Test #13
+Genetic Test #13
+Genetic Test #11
+Genetic Test #15
+Genetic Test #14
+Genetic Test #15
+Genetic Test #16
+Genetic Test #12
+Genetic Test #12
+Genetic Test #16
+Genetic Test #10
+Genetic Test #10
+Genetic Test #13
+Genetic Test #14
+Genetic Test #13
+Genetic Test #14
+Genetic Test #15
+Genetic Test #11
+Genetic Test #11
+Genetic Test #15
+Genetic Test #17
+Genetic Test #16
+Genetic Test #16
+Genetic Test #12
+Genetic Test #17
+Genetic Test #12
+Genetic Test #18
+Genetic Test #14
+Genetic Test #14
+Genetic Test #15
+Genetic Test #19
+Genetic Test #13
+Genetic Test #18
+Genetic Test #13
+Genetic Test #15
+Genetic Test #16
+Genetic Test #20
+Genetic Test #19
+Genetic Test #17
+Genetic Test #16
+Genetic Test #17
+Genetic Test #21
+Genetic Test #20
+Genetic Test #22
+Genetic Test #21
+Genetic Test #23
+Genetic Test #22
+Genetic Test #18
+Genetic Test #18
+Genetic Test #24
+Genetic Test #23
+Genetic Test #14
+Genetic Test #14
+Genetic Test #19
+Genetic Test #19
+Genetic Test #15
+Genetic Test #24
+Genetic Test #15
+Genetic Test #20
+Genetic Test #20
+Genetic Test #17
+Genetic Test #21
+Genetic Test #16
+Genetic Test #16
+Genetic Test #21
+Genetic Test #17
+Genetic Test #22
+Genetic Test #22
+Genetic Test #25
+Genetic Test #23
+Genetic Test #26
+Genetic Test #24
+Genetic Test #23
+Genetic Test #27
+Genetic Test #18
+Genetic Test #28
+Genetic Test #17
+Genetic Test #17
+Genetic Test #29
+Genetic Test #19
+Genetic Test #24>>> 23/40 w1=0.31 (w1-w2=+0.06) GA   s1  ovf=0.0 maxlvl=8.125 nsw=18.5 dry=0.000  (187.2s)
+
+tests: 30
+
+PSO Test #0
+Genetic Test #20
+PSO Test #1
+PSO Test #2
+PSO Test #3
+PSO Test #4
+PSO Test #5
+Genetic Test #18
+Genetic Test #25
+Genetic Test #21
+PSO Test #6
+PSO Test #7
+PSO Test #8
+PSO Test #9
+Genetic Test #25
+Genetic Test #18
+PSO Test #10
+Genetic Test #26
+PSO Test #11
+Genetic Test #22
+PSO Test #12
+Genetic Test #18
+PSO Test #13
+Genetic Test #27
+Genetic Test #19
+Genetic Test #19
+PSO Test #14
+Genetic Test #23
+PSO Test #15
+Genetic Test #19
+PSO Test #16
+Genetic Test #20
+Genetic Test #28
+Genetic Test #26
+Genetic Test #29
+Genetic Test #20
+Genetic Test #24
+Genetic Test #21
+PSO Test #17
+Genetic Test #21
+Genetic Test #22>>> 24/40 w1=0.33 (w1-w2=+0.08) GA   s1  ovf=0.0 maxlvl=7.677 nsw=22.2 dry=0.000  (188.4s)
+
+tests: 30
+
+PSO Test #0
+PSO Test #1
+PSO Test #18
+PSO Test #2
+PSO Test #3
+PSO Test #19
+PSO Test #4
+PSO Test #5
+Genetic Test #27
+PSO Test #20
+Genetic Test #22
+PSO Test #21
+PSO Test #22
+PSO Test #6
+PSO Test #7
+PSO Test #8
+PSO Test #23
+Genetic Test #20
+PSO Test #9
+Genetic Test #23
+PSO Test #24
+PSO Test #10
+Genetic Test #23
+PSO Test #25
+PSO Test #11
+PSO Test #26
+PSO Test #27
+PSO Test #12
+Genetic Test #28
+PSO Test #28
+PSO Test #29>>> 25/40 w1=0.40 (w1-w2=+0.15) PSO  s1  ovf=0.0 maxlvl=6.322 nsw=60.5 dry=0.100  (28.0s)
+
+tests: 30
+
+Genetic Test #0
+PSO Test #13
+Genetic Test #29
+Genetic Test #1
+Genetic Test #24
+PSO Test #14
+PSO Test #15
+Genetic Test #21
+Genetic Test #25
+PSO Test #16
+Genetic Test #2
+Genetic Test #24
+PSO Test #17>>> 26/40 w1=0.31 (w1-w2=+0.06) GA   s2  ovf=0.0 maxlvl=8.125 nsw=18.5 dry=0.000  (218.8s)
+
+tests: 30
+
+Genetic Test #0
+PSO Test #18
+PSO Test #19
+PSO Test #20
+Genetic Test #1
+PSO Test #21
+Genetic Test #26
+PSO Test #22
+PSO Test #23
+PSO Test #24
+Genetic Test #2
+Genetic Test #3
+Genetic Test #25
+Genetic Test #27
+PSO Test #25
+PSO Test #26
+PSO Test #27
+PSO Test #28
+Genetic Test #22
+PSO Test #29
+Genetic Test #3>>> 27/40 w1=0.40 (w1-w2=+0.15) PSO  s2  ovf=0.0 maxlvl=6.322 nsw=60.2 dry=0.133  (20.3s)
+
+tests: 30
+
+PSO Test #0
+PSO Test #1
+PSO Test #2
+PSO Test #3
+PSO Test #4
+PSO Test #5
+Genetic Test #28
+Genetic Test #25
+Genetic Test #29
+Genetic Test #4
+PSO Test #6
+PSO Test #7
+PSO Test #8
+Genetic Test #5
+Genetic Test #26>>> 28/40 w1=0.35 (w1-w2=+0.10) GA   s2  ovf=0.0 maxlvl=7.231 nsw=28.8 dry=0.000  (199.9s)
+
+tests: 30
+
+PSO Test #0
+Genetic Test #26
+PSO Test #9
+PSO Test #1
+PSO Test #2
+PSO Test #3
+Genetic Test #23
+PSO Test #4
+PSO Test #5
+PSO Test #10
+Genetic Test #27
+Genetic Test #4
+PSO Test #11
+PSO Test #6
+PSO Test #7
+PSO Test #12
+PSO Test #8
+PSO Test #9
+PSO Test #13
+Genetic Test #27
+PSO Test #10
+PSO Test #14
+PSO Test #15
+PSO Test #11
+PSO Test #16
+Genetic Test #28
+PSO Test #12
+PSO Test #13
+PSO Test #17
+Genetic Test #29
+PSO Test #18
+PSO Test #19
+Genetic Test #5
+PSO Test #20
+PSO Test #21
+PSO Test #22
+Genetic Test #24
+PSO Test #23
+PSO Test #24
+PSO Test #14
+PSO Test #15
+PSO Test #16
+PSO Test #25
+PSO Test #26
+PSO Test #27
+PSO Test #17
+PSO Test #28
+PSO Test #29
+PSO Test #18>>> 29/40 w1=0.45 (w1-w2=+0.20) PSO  s1  ovf=0.0 maxlvl=5.871 nsw=102.0 dry=0.033  (27.1s)
+
+tests: 30
+
+Genetic Test #0
+PSO Test #19
+PSO Test #20
+PSO Test #21
+PSO Test #22>>> 30/40 w1=0.40 (w1-w2=+0.15) GA   s2  ovf=0.0 maxlvl=6.322 nsw=60.5 dry=0.100  (200.2s)
+
+tests: 30
+
+Genetic Test #0
+Genetic Test #1
+PSO Test #23
+PSO Test #24
+Genetic Test #1
+PSO Test #25
+Genetic Test #28
+PSO Test #26
+Genetic Test #2
+PSO Test #27
+Genetic Test #2
+Genetic Test #25
+PSO Test #28
+Genetic Test #6
+PSO Test #29>>> 31/40 w1=0.45 (w1-w2=+0.20) PSO  s2  ovf=0.0 maxlvl=5.871 nsw=102.3 dry=0.033  (23.5s)
+
+tests: 30
+
+PSO Test #0
+PSO Test #1
+PSO Test #2
+PSO Test #3
+PSO Test #4
+Genetic Test #7
+PSO Test #5
+Genetic Test #3
+Genetic Test #29
+Genetic Test #3
+PSO Test #6
+PSO Test #7
+PSO Test #8
+PSO Test #9
+Genetic Test #8
+PSO Test #10
+PSO Test #11
+PSO Test #12
+PSO Test #13
+Genetic Test #4
+Genetic Test #9
+Genetic Test #4
+PSO Test #14
+PSO Test #15
+Genetic Test #26
+PSO Test #16
+Genetic Test #5>>> 32/40 w1=0.33 (w1-w2=+0.08) GA   s2  ovf=0.0 maxlvl=7.677 nsw=22.2 dry=0.000  (254.5s)
+
+tests: 30
+
+PSO Test #0
+Genetic Test #5
+PSO Test #1
+PSO Test #2
+PSO Test #17
+PSO Test #3
+PSO Test #4
+PSO Test #5
+PSO Test #18
+Genetic Test #27
+PSO Test #19
+PSO Test #20
+PSO Test #21
+PSO Test #22
+PSO Test #23
+PSO Test #6
+PSO Test #7
+PSO Test #24
+PSO Test #8
+PSO Test #9
+PSO Test #25
+PSO Test #26
+PSO Test #27
+PSO Test #28
+PSO Test #29>>> 33/40 w1=0.50 (w1-w2=+0.25) PSO  s1  ovf=0.0 maxlvl=5.755 nsw=117.5 dry=1.733  (26.0s)
+
+Genetic Test #10
+PSO Test #10
+PSO Test #11
+Genetic Test #25
+PSO Test #12
+Genetic Test #6
+Genetic Test #28
+PSO Test #13
+Genetic Test #6
+Genetic Test #7
+Genetic Test #6
+Genetic Test #7
+Genetic Test #11
+Genetic Test #7
+Genetic Test #29
+PSO Test #14
+PSO Test #15
+Genetic Test #8
+PSO Test #16
+Genetic Test #8
+Genetic Test #9
+Genetic Test #8
+Genetic Test #26
+Genetic Test #9
+PSO Test #17
+Genetic Test #9
+Genetic Test #12
+PSO Test #18
+PSO Test #19
+PSO Test #20
+Genetic Test #27
+PSO Test #21>>> 34/40 w1=0.40 (w1-w2=+0.15) GA   s1  ovf=0.0 maxlvl=6.322 nsw=60.5 dry=0.100  (254.2s)
+
+PSO Test #22
+PSO Test #23
+PSO Test #24
+PSO Test #25
+PSO Test #26
+PSO Test #27
+PSO Test #28
+PSO Test #29>>> 35/40 w1=0.50 (w1-w2=+0.25) PSO  s2  ovf=0.0 maxlvl=5.755 nsw=117.5 dry=1.733  (41.2s)
+
+Genetic Test #10
+Genetic Test #10
+Genetic Test #10
+Genetic Test #13
+Genetic Test #28
+Genetic Test #29
+Genetic Test #11
+Genetic Test #11
+Genetic Test #11
+Genetic Test #12>>> 36/40 w1=0.35 (w1-w2=+0.10) GA   s1  ovf=0.0 maxlvl=7.231 nsw=28.8 dry=0.000  (304.2s)
+
+Genetic Test #12
+Genetic Test #12
+Genetic Test #14
+Genetic Test #15
+Genetic Test #13
+Genetic Test #16
+Genetic Test #13
+Genetic Test #13
+Genetic Test #14
+Genetic Test #14
+Genetic Test #17
+Genetic Test #14
+Genetic Test #15
+Genetic Test #15
+Genetic Test #15
+Genetic Test #16
+Genetic Test #16
+Genetic Test #16
+Genetic Test #18
+Genetic Test #19
+Genetic Test #20
+Genetic Test #17
+Genetic Test #17
+Genetic Test #21
+Genetic Test #17
+Genetic Test #18
+Genetic Test #22
+Genetic Test #18
+Genetic Test #18
+Genetic Test #19
+Genetic Test #19
+Genetic Test #19
+Genetic Test #20
+Genetic Test #20
+Genetic Test #20
+Genetic Test #21
+Genetic Test #23
+Genetic Test #21
+Genetic Test #21
+Genetic Test #22
+Genetic Test #22
+Genetic Test #22
+Genetic Test #23
+Genetic Test #23
+Genetic Test #23
+Genetic Test #24
+Genetic Test #24
+Genetic Test #24
+Genetic Test #24
+Genetic Test #25
+Genetic Test #25
+Genetic Test #25
+Genetic Test #26
+Genetic Test #26
+Genetic Test #26
+Genetic Test #27
+Genetic Test #27
+Genetic Test #27
+Genetic Test #28
+Genetic Test #28
+Genetic Test #29
+Genetic Test #28
+Genetic Test #29
+Genetic Test #29>>> 37/40 w1=0.50 (w1-w2=+0.25) GA   s2  ovf=0.0 maxlvl=5.755 nsw=117.5 dry=1.733  (206.3s)
+>>> 38/40 w1=0.45 (w1-w2=+0.20) GA   s1  ovf=0.0 maxlvl=5.871 nsw=102.0 dry=0.033  (248.2s)
+>>> 39/40 w1=0.50 (w1-w2=+0.25) GA   s1  ovf=0.0 maxlvl=5.755 nsw=117.5 dry=1.733  (210.1s)
+
+Genetic Test #25
+Genetic Test #26
+Genetic Test #27
+Genetic Test #28
+Genetic Test #29>>> 40/40 w1=0.45 (w1-w2=+0.20) GA   s2  ovf=0.0 maxlvl=5.871 nsw=102.0 dry=0.033  (265.1s)
+
+
+
+
+
+
+
+
+
+all done 669s
+
+=== E6 controlled w1 sweep (mean over GA/PSO x seeds 1,2) ===
+ w1_minus_w2   w1  overflow  max_level  n_switches     i100    i170      dry
+       -0.05 0.20    1.0000   10.00000     0.00000   0.0000  0.0000 0.000000
+        0.00 0.25    1.0000   10.00000    12.78350 191.8575 68.6025 0.000000
+        0.02 0.27    0.0333    9.40860    13.54975 199.0100 64.4925 0.000000
+        0.04 0.29    0.0000    8.74690    14.93300 204.5000 60.2300 0.000000
+        0.06 0.31    0.0000    8.12490    18.53300 212.1700 57.4700 0.000000
+        0.08 0.33    0.0000    7.67730    22.20000 215.6700 54.8700 0.000000
+        0.10 0.35    0.0000    7.23090    28.76675 224.8650 52.2675 0.000000
+        0.15 0.40    0.0000    6.32205    60.40025 233.7350 46.9700 0.108325
+        0.20 0.45    0.0000    5.87060   102.06675 247.4725 40.4850 0.033300
+        0.25 0.50    0.0000    5.75520   117.53300 249.3000 40.6700 1.733300
+wrote results/summary/E06_tradeoff.png

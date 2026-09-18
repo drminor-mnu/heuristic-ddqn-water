@@ -1,0 +1,46 @@
+config: gamma=0.1 norm=sum tag=ctrl tasks=4 -> results/summary/E03_guided_fix_ctrl.csv
+[14:28:25] START GA-guided-fixed seed2  gamma=0.1 norm=sum
+[14:28:25] START GA-guided-fixed seed1  gamma=0.1 norm=sum
+[14:28:25] START PSO-guided-fixed seed1  gamma=0.1 norm=sum
+[14:28:25] START PSO-guided-fixed seed2  gamma=0.1 norm=sum
+[14:31:23]   [PSO s1] ep 100/500 loss=0.00247 ga_prob=0.481 eps=0.250 updates=25051
+[14:31:47]   [PSO s2] ep 100/500 loss=0.00234 ga_prob=0.481 eps=0.250 updates=29911
+[14:33:38]   [PSO s2] ep 200/500 loss=0.00134 ga_prob=0.361 eps=0.200 updates=53411
+[14:33:44]   [PSO s1] ep 200/500 loss=0.00148 ga_prob=0.361 eps=0.200 updates=55121
+[14:35:54]   [PSO s2] ep 300/500 loss=0.00091 ga_prob=0.240 eps=0.150 updates=82611
+[14:36:17]   [PSO s1] ep 300/500 loss=0.00118 ga_prob=0.240 eps=0.150 updates=87951
+[14:36:29]   [GA s1] ep 100/500 loss=0.00255 ga_prob=0.481 eps=0.250 updates=25051
+[14:38:00]   [GA s2] ep 100/500 loss=0.00194 ga_prob=0.481 eps=0.250 updates=29911
+[14:38:12]   [PSO s1] ep 400/500 loss=0.00090 ga_prob=0.120 eps=0.100 updates=112861
+[14:38:16]   [PSO s2] ep 400/500 loss=0.00078 ga_prob=0.120 eps=0.100 updates=113551
+[14:40:26]   [PSO s1] ep 500/500 loss=0.00056 ga_prob=0.000 eps=0.050 updates=142031
+[14:40:27]   [PSO s2] ep 500/500 loss=0.00027 ga_prob=0.000 eps=0.050 updates=142031
+[14:40:33] DONE PSO seed1  overflow=1.000 max_level=10.000 act0=1.000 (729s)
+>>> 1/4 PSO seed1 overflow=1.0 max_level=10.0
+[14:40:34] DONE PSO seed2  overflow=1.000 max_level=10.000 act0=0.133 (730s)
+>>> 2/4 PSO seed2 overflow=1.0 max_level=10.0
+[14:43:28]   [GA s2] ep 200/500 loss=0.00114 ga_prob=0.361 eps=0.200 updates=53411
+[14:43:35]   [GA s1] ep 200/500 loss=0.00128 ga_prob=0.361 eps=0.200 updates=55121
+[14:48:16]   [GA s2] ep 300/500 loss=0.00104 ga_prob=0.240 eps=0.150 updates=82611
+[14:48:52]   [GA s1] ep 300/500 loss=0.00095 ga_prob=0.240 eps=0.150 updates=87951
+[14:51:25]   [GA s2] ep 400/500 loss=0.00054 ga_prob=0.120 eps=0.100 updates=113551
+[14:51:29]   [GA s1] ep 400/500 loss=0.00059 ga_prob=0.120 eps=0.100 updates=112861
+[14:53:11]   [GA s2] ep 500/500 loss=0.00021 ga_prob=0.000 eps=0.050 updates=142031
+[14:53:17] DONE GA seed2  overflow=1.000 max_level=10.000 act0=0.033 (1493s)
+>>> 3/4 GA seed2 overflow=1.0 max_level=10.0
+[14:53:18]   [GA s1] ep 500/500 loss=0.00043 ga_prob=0.000 eps=0.050 updates=142031
+[14:53:23] DONE GA seed1  overflow=1.000 max_level=10.000 act0=0.000 (1499s)
+>>> 4/4 GA seed1 overflow=1.0 max_level=10.0
+
+all done 1500s
+guide  seed  n_train  n_test  gamma norm  overflow_rate  mean_max_level_m  action0_lock_rate  mean_n_intervals_100  mean_n_switches  mean_dryrun_proxy  elapsed_s
+  PSO     1      500      30    0.1  sum            1.0              10.0             1.0000                  0.00             0.00              0.000      728.9
+  PSO     2      500      30    0.1  sum            1.0              10.0             0.1333                142.07             6.53              0.733      729.7
+   GA     2      500      30    0.1  sum            1.0              10.0             0.0333                159.60            10.43              0.400     1492.9
+   GA     1      500      30    0.1  sum            1.0              10.0             0.0000                136.07             1.03              0.000     1498.8
+
+by guide (mean over seeds):
+       overflow_rate  mean_max_level_m  action0_lock_rate  mean_n_intervals_100  mean_dryrun_proxy
+guide                                                                                             
+GA               1.0              10.0            0.01665               147.835             0.2000
+PSO              1.0              10.0            0.56665                71.035             0.3665

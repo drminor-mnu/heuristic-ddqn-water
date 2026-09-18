@@ -1,0 +1,6 @@
+﻿Model,Mean Maximum Water Level (m),Mean No. of Switches,100 m3/min Pump Operating Intervals,170 m3/min Pump Operating Intervals,Dry-Running Proxy Count,U(pi),Mean Maximum Water Level (m) SD,Mean No. of Switches SD,100 m3/min Pump Operating Intervals SD,170 m3/min Pump Operating Intervals SD,Dry-Running Proxy Count SD,U(pi) SD,Mean Maximum Water Level (m) CI95_half,Mean No. of Switches CI95_half,100 m3/min Pump Operating Intervals CI95_half,170 m3/min Pump Operating Intervals CI95_half,Dry-Running Proxy Count CI95_half,U(pi) CI95_half
+Regular,6.224,39.30,307.18,21.03,3.30,53.58,0.077,6.41,6.18,1.99,2.75,0.94,0.096,7.96,7.67,2.47,3.42,1.17
+GA-guided,6.033,34.20,312.28,18.76,4.87,53.78,0.091,4.76,6.50,0.99,4.39,0.99,0.113,5.91,8.07,1.23,5.46,1.23
+PSO-guided,6.205,32.54,307.64,19.33,2.16,53.20,0.165,5.67,3.26,1.46,1.09,0.25,0.205,7.04,4.05,1.81,1.35,0.30
+GA-only,6.338,72.07,257.63,45.12,0.33,52.24,0.000,0.00,0.00,0.00,0.00,0.00,0.000,0.00,0.00,0.00,0.00,0.00
+PSO-only,6.338,72.19,257.59,45.15,0.34,52.24,0.000,0.05,0.03,0.02,0.00,0.00,0.000,0.06,0.04,0.02,0.00,0.00

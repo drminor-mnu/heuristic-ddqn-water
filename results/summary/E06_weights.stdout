@@ -1,0 +1,101 @@
+tasks=21
+SELECTION CRITERIA: (1) overflow_rate == 0  (2) best switching/pump-use/dry-running balance  (3) ref = man_policy
+cuda
+
+tests: 30
+Genetic Test #0cuda
+
+tests: 30
+Genetic Test #0cuda
+
+tests: 30
+PSO Test #0cuda
+
+tests: 30
+Genetic Test #0cuda
+
+tests: 30
+Genetic Test #0cuda
+
+tests: 30
+Man Test #0cuda
+
+tests: 30
+PSO Test #0cuda
+
+tests: 30
+PSO Test #0Man Test #1Man Test #2PSO Test #1PSO Test #1Man Test #3PSO Test #1PSO Test #2PSO Test #2Man Test #4PSO Test #2Man Test #5PSO Test #3PSO Test #3PSO Test #3Man Test #6Man Test #7Man Test #8PSO Test #4Man Test #9PSO Test #4PSO Test #4PSO Test #5PSO Test #5PSO Test #5Man Test #10Genetic Test #1Genetic Test #1Genetic Test #1Genetic Test #1Man Test #11Man Test #12Man Test #13Man Test #14Man Test #15Man Test #16PSO Test #6PSO Test #6Genetic Test #2Genetic Test #2PSO Test #6Genetic Test #2Man Test #17PSO Test #7PSO Test #7PSO Test #7Genetic Test #2Man Test #18Man Test #19PSO Test #8PSO Test #8Man Test #20PSO Test #8Man Test #21PSO Test #9PSO Test #9Man Test #22PSO Test #9Man Test #23Man Test #24Man Test #25Man Test #26Man Test #27Man Test #28Man Test #29>>> 1/21 man_policy_REFERENCE     man_policy s0  overflow=0.0  maxlvl=6.6151  nsw=14.87  i100=263.9  dry=0.0  (4.3s)
+
+tests: 30
+PSO Test #0PSO Test #1PSO Test #10PSO Test #10PSO Test #10PSO Test #2PSO Test #3PSO Test #11PSO Test #11PSO Test #11PSO Test #4Genetic Test #3Genetic Test #3Genetic Test #3PSO Test #5Genetic Test #3PSO Test #12PSO Test #12PSO Test #12PSO Test #13PSO Test #13PSO Test #13PSO Test #6PSO Test #7PSO Test #8PSO Test #9PSO Test #14PSO Test #14PSO Test #14PSO Test #15PSO Test #15PSO Test #15PSO Test #16PSO Test #16PSO Test #16PSO Test #10PSO Test #11Genetic Test #4Genetic Test #4Genetic Test #4PSO Test #17PSO Test #17PSO Test #12PSO Test #17Genetic Test #4PSO Test #18PSO Test #18PSO Test #18PSO Test #13PSO Test #19PSO Test #19PSO Test #19PSO Test #20PSO Test #20PSO Test #20PSO Test #21PSO Test #21PSO Test #21PSO Test #22PSO Test #22PSO Test #22PSO Test #23PSO Test #23PSO Test #23PSO Test #14PSO Test #24PSO Test #24Genetic Test #5PSO Test #24Genetic Test #5Genetic Test #5PSO Test #15Genetic Test #5PSO Test #16PSO Test #25PSO Test #25PSO Test #25PSO Test #26PSO Test #26PSO Test #26PSO Test #27PSO Test #27PSO Test #27PSO Test #28PSO Test #17PSO Test #28PSO Test #28PSO Test #29PSO Test #29PSO Test #29>>> 2/21 w_0.50_0.25_0.15_0.10    PSO        s1  overflow=0.0  maxlvl=5.1542  nsw=114.2  i100=276.87  dry=6.5333  (16.3s)
+
+tests: 30
+Genetic Test #0>>> 3/21 w_0.40_0.25_0.25_0.10    PSO        s2  overflow=0.0  maxlvl=6.3219  nsw=60.2  i100=233.63  dry=0.1333  (16.4s)
+
+tests: 30
+Genetic Test #0>>> 4/21 w_0.40_0.25_0.25_0.10    PSO        s1  overflow=0.0  maxlvl=6.3221  nsw=60.47  i100=233.77  dry=0.1  (16.4s)
+
+tests: 30
+PSO Test #0PSO Test #1PSO Test #18PSO Test #2PSO Test #19PSO Test #3PSO Test #20PSO Test #4PSO Test #21PSO Test #5PSO Test #22Genetic Test #1PSO Test #23Genetic Test #1PSO Test #24PSO Test #6PSO Test #7Genetic Test #2Genetic Test #2PSO Test #25PSO Test #8PSO Test #26PSO Test #9PSO Test #27PSO Test #28PSO Test #29>>> 5/21 w_0.50_0.25_0.15_0.10    PSO        s2  overflow=0.0  maxlvl=5.1542  nsw=114.2  i100=276.87  dry=6.5333  (16.9s)
+
+tests: 30
+PSO Test #0PSO Test #10PSO Test #1PSO Test #2PSO Test #3PSO Test #11PSO Test #4PSO Test #5Genetic Test #3Genetic Test #3PSO Test #12PSO Test #13PSO Test #6PSO Test #7PSO Test #8PSO Test #9PSO Test #14PSO Test #15PSO Test #16PSO Test #10PSO Test #11PSO Test #12PSO Test #17Genetic Test #4PSO Test #13PSO Test #18Genetic Test #4PSO Test #19PSO Test #20PSO Test #21PSO Test #22PSO Test #23PSO Test #14PSO Test #24PSO Test #15Genetic Test #6Genetic Test #6Genetic Test #6PSO Test #16Genetic Test #6PSO Test #25Genetic Test #5Genetic Test #5PSO Test #26Genetic Test #7PSO Test #27Genetic Test #7Genetic Test #7PSO Test #17PSO Test #28Genetic Test #7PSO Test #29>>> 6/21 w_0.45_0.35_0.10_0.10    PSO        s1  overflow=0.0  maxlvl=5.7065  nsw=15.47  i100=600.63  dry=169.4667  (16.7s)
+
+tests: 30
+Genetic Test #0PSO Test #18PSO Test #19PSO Test #20PSO Test #21PSO Test #22Genetic Test #1PSO Test #23PSO Test #24Genetic Test #8Genetic Test #8Genetic Test #8Genetic Test #8Genetic Test #2PSO Test #25PSO Test #26PSO Test #27PSO Test #28PSO Test #29Genetic Test #9Genetic Test #9Genetic Test #9>>> 7/21 w_0.45_0.35_0.10_0.10    PSO        s2  overflow=0.0  maxlvl=5.7065  nsw=15.43  i100=600.63  dry=169.4667  (16.9s)
+
+tests: 30
+Genetic Test #0Genetic Test #9Genetic Test #3Genetic Test #1Genetic Test #2Genetic Test #3Genetic Test #4Genetic Test #5Genetic Test #4Genetic Test #10Genetic Test #10Genetic Test #10Genetic Test #10Genetic Test #5Genetic Test #6Genetic Test #6Genetic Test #7Genetic Test #7Genetic Test #8Genetic Test #8Genetic Test #11Genetic Test #11Genetic Test #11Genetic Test #11Genetic Test #9Genetic Test #9Genetic Test #6Genetic Test #7Genetic Test #12Genetic Test #12Genetic Test #12Genetic Test #12Genetic Test #6Genetic Test #8Genetic Test #7Genetic Test #9Genetic Test #8Genetic Test #13Genetic Test #13Genetic Test #9Genetic Test #13Genetic Test #13Genetic Test #10Genetic Test #10Genetic Test #10Genetic Test #11Genetic Test #11Genetic Test #10Genetic Test #14Genetic Test #14Genetic Test #14Genetic Test #14Genetic Test #11Genetic Test #15Genetic Test #15Genetic Test #15Genetic Test #12Genetic Test #15Genetic Test #12Genetic Test #11Genetic Test #16Genetic Test #16Genetic Test #16Genetic Test #16Genetic Test #12Genetic Test #12Genetic Test #13Genetic Test #13Genetic Test #13Genetic Test #13Genetic Test #17Genetic Test #17Genetic Test #17Genetic Test #17Genetic Test #18Genetic Test #18Genetic Test #18Genetic Test #18Genetic Test #14Genetic Test #14Genetic Test #14Genetic Test #19Genetic Test #19Genetic Test #19Genetic Test #19Genetic Test #15Genetic Test #15Genetic Test #15Genetic Test #14Genetic Test #20Genetic Test #20Genetic Test #20Genetic Test #20Genetic Test #16Genetic Test #21Genetic Test #15Genetic Test #16Genetic Test #21Genetic Test #16Genetic Test #21Genetic Test #21Genetic Test #22Genetic Test #22Genetic Test #22Genetic Test #16Genetic Test #22Genetic Test #23Genetic Test #23Genetic Test #23Genetic Test #23Genetic Test #24Genetic Test #24Genetic Test #24Genetic Test #24Genetic Test #17Genetic Test #17Genetic Test #17Genetic Test #17Genetic Test #25Genetic Test #25Genetic Test #25Genetic Test #25Genetic Test #18Genetic Test #26Genetic Test #26Genetic Test #26Genetic Test #26Genetic Test #27Genetic Test #27Genetic Test #27Genetic Test #19Genetic Test #18Genetic Test #27Genetic Test #18Genetic Test #18Genetic Test #20Genetic Test #28Genetic Test #19Genetic Test #28Genetic Test #28Genetic Test #29Genetic Test #28Genetic Test #21Genetic Test #29Genetic Test #29Genetic Test #19Genetic Test #19Genetic Test #29Genetic Test #20Genetic Test #22>>> 8/21 w_0.50_0.25_0.15_0.10    GA         s2  overflow=0.0  maxlvl=5.1542  nsw=114.2  i100=276.87  dry=6.5333  (177.1s)
+
+tests: 30
+PSO Test #0PSO Test #1PSO Test #2PSO Test #3>>> 9/21 w_0.50_0.25_0.15_0.10    GA         s1  overflow=0.0  maxlvl=5.1542  nsw=114.2  i100=276.87  dry=6.5333  (177.8s)
+
+tests: 30
+PSO Test #0>>> 10/21 w_0.40_0.25_0.25_0.10    GA         s1  overflow=0.0  maxlvl=6.3221  nsw=60.47  i100=233.77  dry=0.1  (177.8s)
+
+tests: 30
+Genetic Test #0PSO Test #1PSO Test #2PSO Test #4PSO Test #3PSO Test #5Genetic Test #21>>> 11/21 w_0.40_0.25_0.25_0.10    GA         s2  overflow=0.0  maxlvl=6.3221  nsw=60.47  i100=233.77  dry=0.1  (178.7s)
+
+tests: 30
+Genetic Test #0Genetic Test #20PSO Test #4Genetic Test #20PSO Test #5Genetic Test #1PSO Test #6PSO Test #7Genetic Test #1PSO Test #8PSO Test #9Genetic Test #23PSO Test #6Genetic Test #2PSO Test #7PSO Test #8PSO Test #9Genetic Test #21Genetic Test #22Genetic Test #2Genetic Test #21PSO Test #10PSO Test #10PSO Test #11PSO Test #11PSO Test #12Genetic Test #3PSO Test #12PSO Test #13Genetic Test #24Genetic Test #22Genetic Test #3PSO Test #13Genetic Test #22Genetic Test #23PSO Test #14PSO Test #15PSO Test #14PSO Test #16PSO Test #15PSO Test #16PSO Test #17Genetic Test #23Genetic Test #4PSO Test #17Genetic Test #23Genetic Test #24PSO Test #18PSO Test #19Genetic Test #4PSO Test #18PSO Test #20PSO Test #21PSO Test #19PSO Test #22PSO Test #20PSO Test #23PSO Test #21PSO Test #22PSO Test #24PSO Test #23PSO Test #24Genetic Test #5PSO Test #25PSO Test #26Genetic Test #24Genetic Test #5PSO Test #27PSO Test #25Genetic Test #24PSO Test #26PSO Test #28PSO Test #29PSO Test #27>>> 12/21 w_0.35_0.30_0.25_0.10    PSO        s1  overflow=0.0  maxlvl=7.942  nsw=19.93  i100=220.5  dry=2.8667  (16.9s)
+
+tests: 30
+PSO Test #0PSO Test #1PSO Test #28PSO Test #2PSO Test #29PSO Test #3>>> 13/21 w_0.35_0.30_0.25_0.10    PSO        s2  overflow=0.0  maxlvl=7.9443  nsw=20.0  i100=220.53  dry=2.8333  (16.9s)
+
+tests: 30
+PSO Test #0PSO Test #1PSO Test #2PSO Test #4PSO Test #3PSO Test #5PSO Test #4PSO Test #5PSO Test #6PSO Test #7PSO Test #8PSO Test #9PSO Test #6PSO Test #7Genetic Test #25PSO Test #8PSO Test #9PSO Test #10PSO Test #10PSO Test #11PSO Test #12PSO Test #11PSO Test #12PSO Test #13Genetic Test #26PSO Test #13Genetic Test #25PSO Test #14PSO Test #15PSO Test #16PSO Test #14PSO Test #15Genetic Test #27PSO Test #16PSO Test #17PSO Test #17PSO Test #18PSO Test #19Genetic Test #26PSO Test #20PSO Test #18PSO Test #21PSO Test #19PSO Test #22PSO Test #20PSO Test #23PSO Test #21PSO Test #24PSO Test #22PSO Test #23PSO Test #24Genetic Test #27Genetic Test #6Genetic Test #25Genetic Test #28PSO Test #25Genetic Test #25PSO Test #26PSO Test #27PSO Test #25Genetic Test #6PSO Test #28PSO Test #29PSO Test #26PSO Test #27Genetic Test #7Genetic Test #29>>> 14/21 w_0.30_0.30_0.30_0.10    PSO        s1  overflow=1.0  maxlvl=10.0  nsw=12.67  i100=192.9  dry=0.0  (17.0s)
+PSO Test #28PSO Test #29>>> 15/21 w_0.30_0.30_0.30_0.10    PSO        s2  overflow=1.0  maxlvl=10.0  nsw=12.8  i100=192.33  dry=0.0  (17.1s)
+Genetic Test #7Genetic Test #26Genetic Test #26Genetic Test #28Genetic Test #8>>> 16/21 w_0.35_0.30_0.25_0.10    GA         s1  overflow=0.0  maxlvl=7.942  nsw=19.93  i100=220.5  dry=2.8667  (181.7s)
+Genetic Test #8Genetic Test #29Genetic Test #27Genetic Test #27Genetic Test #9Genetic Test #9>>> 17/21 w_0.35_0.30_0.25_0.10    GA         s2  overflow=0.0  maxlvl=7.942  nsw=19.93  i100=220.5  dry=2.8667  (181.5s)
+Genetic Test #28Genetic Test #28Genetic Test #29Genetic Test #29>>> 18/21 w_0.45_0.35_0.10_0.10    GA         s2  overflow=0.0  maxlvl=5.7065  nsw=15.43  i100=600.63  dry=169.4667  (210.8s)
+>>> 19/21 w_0.45_0.35_0.10_0.10    GA         s1  overflow=0.0  maxlvl=5.7065  nsw=15.43  i100=600.63  dry=169.4667  (211.1s)
+Genetic Test #10Genetic Test #10Genetic Test #11Genetic Test #11Genetic Test #12Genetic Test #12Genetic Test #13Genetic Test #13Genetic Test #14Genetic Test #14Genetic Test #15Genetic Test #15Genetic Test #16Genetic Test #16Genetic Test #17Genetic Test #17Genetic Test #18Genetic Test #18Genetic Test #19Genetic Test #19Genetic Test #20Genetic Test #20Genetic Test #21Genetic Test #21Genetic Test #22Genetic Test #22Genetic Test #23Genetic Test #23Genetic Test #24Genetic Test #24Genetic Test #25Genetic Test #25Genetic Test #26Genetic Test #26Genetic Test #27Genetic Test #27Genetic Test #28Genetic Test #28Genetic Test #29Genetic Test #29>>> 20/21 w_0.30_0.30_0.30_0.10    GA         s1  overflow=1.0  maxlvl=10.0  nsw=12.8  i100=191.7  dry=0.0  (168.6s)
+>>> 21/21 w_0.30_0.30_0.30_0.10    GA         s2  overflow=1.0  maxlvl=10.0  nsw=12.87  i100=190.5  dry=0.0  (168.7s)
+
+
+
+
+
+
+
+
+
+all done 349s
+
+=== E6 weight sweep (mean over seeds 1,2) ===
+                            overflow  max_level  act0  n_switches     i100     i170        dry
+condition             algo                                                                    
+w_0.30_0.30_0.30_0.10 GA         1.0   10.00000   0.0      12.835  191.100   68.970    0.00000
+                      PSO        1.0   10.00000   0.0      12.735  192.615   68.235    0.00000
+w_0.35_0.30_0.25_0.10 GA         0.0    7.94200   0.0      19.930  220.500   56.200    2.86670
+                      PSO        0.0    7.94315   0.0      19.965  220.515   56.185    2.85000
+w_0.40_0.25_0.25_0.10 GA         0.0    6.32210   0.0      60.470  233.770   46.970    0.10000
+                      PSO        0.0    6.32200   0.0      60.335  233.700   46.970    0.11665
+w_0.45_0.35_0.10_0.10 GA         0.0    5.70650   0.0      15.430  600.630  188.930  169.46670
+                      PSO        0.0    5.70650   0.0      15.450  600.630  187.830  169.46670
+w_0.50_0.25_0.15_0.10 GA         0.0    5.15420   0.0     114.200  276.870   25.830    6.53330
+                      PSO        0.0    5.15420   0.0     114.200  276.870   25.830    6.53330
+
+=== man_policy reference (same 30 scenarios) ===
+ mean_max_level_m  mean_n_switches  mean_n_intervals_100  mean_n_intervals_170  mean_n_dryrun_proxy
+           6.6151            14.87                 263.9                 28.93                  0.0

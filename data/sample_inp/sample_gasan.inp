@@ -1,0 +1,307 @@
+[TITLE]
+;;Project Title/Notes
+
+[OPTIONS]
+;;Option             Value
+FLOW_UNITS           CMS
+INFILTRATION         HORTON
+FLOW_ROUTING         DYNWAVE
+LINK_OFFSETS         DEPTH
+MIN_SLOPE            0
+ALLOW_PONDING        YES
+SKIP_STEADY_STATE    NO
+
+START_DATE           08/01/2023
+START_TIME           00:00:00
+REPORT_START_DATE    08/01/2023
+REPORT_START_TIME    00:00:00
+END_DATE             08/01/2023
+END_TIME             00:00:00
+SWEEP_START          01/01
+SWEEP_END            12/31
+DRY_DAYS             0
+REPORT_STEP          00:01:00
+WET_STEP             00:01:00
+DRY_STEP             24:00:00
+ROUTING_STEP         0:00:10 
+
+INERTIAL_DAMPING     PARTIAL
+NORMAL_FLOW_LIMITED  BOTH
+FORCE_MAIN_EQUATION  D-W
+VARIABLE_STEP        0.75
+LENGTHENING_STEP     0
+MIN_SURFAREA         1.14
+MAX_TRIALS           8
+HEAD_TOLERANCE       0.0015
+SYS_FLOW_TOL         5
+LAT_FLOW_TOL         5
+MINIMUM_STEP         0.5
+THREADS              1
+
+[EVAPORATION]
+;;Data Source    Parameters
+;;-------------- ----------------
+CONSTANT         0.0
+DRY_ONLY         NO
+
+[RAINGAGES]
+;;Name           Format    Interval SCF      Source    
+;;-------------- --------- ------ ------ ----------
+JKBasin     CUMULATIVE     00:01     1     TIMESERIES     Hyeto
+
+[SUBCATCHMENTS]
+;;Name           Rain Gage        Outlet           Area     %Imperv  Width    %Slope   CurbLen  SnowPack        
+;;-------------- ---------------- ---------------- -------- -------- -------- -------- -------- ----------------
+GSN001#1         JKBasin          GSN001           4.24     80       545.625  0.1      0                        
+GSN024#1         JKBasin          GSN024           3.831    80       156.875  0.1      0                        
+GSN027#1         JKBasin          GSN027           0.713    80       25       0.1      0                        
+GSN026#1         JKBasin          GSN026           1.219    80       25       0.1      0                        
+GSN025#1         JKBasin          GSN025           4.777    80       288.75   0.1      0                        
+GSN002#1         JKBasin          GSN002           2.65     80       523      0.1      0                        
+GSN023#1         JKBasin          GSN023           1.134    80       168.125  0.1      0                        
+GSN021#1         JKBasin          GSN021           0.25     80       25       0.1      0                        
+GSN022#1         JKBasin          GSN022           1.161    80       25       0.1      0                        
+GSN015#1         JKBasin          GSN015           0.601    80       25       0.1      0                        
+GSN020#1         JKBasin          GSN020           0.356    80       25       0.1      0                        
+GSN014#1         JKBasin          GSN014           1.13     80       25       0.1      0                        
+GSN011#1         JKBasin          GSN011           3.164    80       31.875   0.1      0                        
+GSN013#1         JKBasin          GSN013           1.354    80       228.875  0.1      0                        
+GSN012#1         JKBasin          GSN012           0.603    80       282.625  0.1      0                        
+GSN028#1         JKBasin          GSN028           3.273    80       25       0.1      0                        
+GSN030#1         JKBasin          GSN030           2.743    80       303.875  0.1      0                        
+GSN003#1         JKBasin          GSN003           2.177    80       302.875  0.1      0                        
+GSN007#1         JKBasin          GSN007           0.586    80       25       0.1      0                        
+GSN006#1         JKBasin          GSN006           0.371    80       25       0.1      0                        
+GSN029#1         JKBasin          GSN029           3.487    80       275.25   0.1      0                        
+GSN005#1         JKBasin          GSN005           0.388    80       25       0.1      0                        
+GSN016#1         JKBasin          GSN016           0.467    80       25       0.1      0                        
+GSN019#1         JKBasin          GSN019           0.312    80       25       0.1      0                        
+GSN018#1         JKBasin          GSN018           0.07     80       25       0.1      0                        
+GSN031#1         JKBasin          GSN031           0.358    80       25       0.1      0                        
+GSN032#1         JKBasin          GSN032           0.367    80       25       0.1      0                        
+GSN017#1         JKBasin          GSN017           3.361    80       37.5     0.1      0                        
+GSN010#1         JKBasin          GSN010           0.4      80       25       0.1      0                        
+GSN009#1         JKBasin          GSN009           0.456    80       25       0.1      0                        
+GSN004#1         JKBasin          GSN004           2.229    80       250      0.1      0                        
+GSN008#1         JKBasin          GSN008           0.234    80       25       0.1      0                        
+
+[SUBAREAS]
+;;Subcatchment   N-Imperv   N-Perv     S-Imperv   S-Perv     PctZero    RouteTo    PctRouted 
+;;-------------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+GSN001#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN024#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN027#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN026#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN025#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN002#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN023#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN021#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN022#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN015#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN020#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN014#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN011#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN013#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN012#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN028#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN030#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN003#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN007#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN006#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN029#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN005#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN016#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN019#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN018#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN031#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN032#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN017#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN010#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN009#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN004#1         0.015      0.03       2.54       5.08       0          OUTLET    
+GSN008#1         0.015      0.03       2.54       5.08       0          OUTLET    
+
+[INFILTRATION]
+;;Subcatchment   MaxRate    MinRate    Decay      DryTime    MaxInfil  
+;;-------------- ---------- ---------- ---------- ---------- ----------
+GSN001#1         203        12.7       3.6        0          0         
+GSN024#1         203        12.7       3.6        0          0         
+GSN027#1         203        12.7       3.6        0          0         
+GSN026#1         203        12.7       3.6        0          0         
+GSN025#1         203        12.7       3.6        0          0         
+GSN002#1         203        12.7       3.6        0          0         
+GSN023#1         203        12.7       3.6        0          0         
+GSN021#1         203        12.7       3.6        0          0         
+GSN022#1         203        12.7       3.6        0          0         
+GSN015#1         203        12.7       3.6        0          0         
+GSN020#1         203        12.7       3.6        0          0         
+GSN014#1         203        12.7       3.6        0          0         
+GSN011#1         203        12.7       3.6        0          0         
+GSN013#1         203        12.7       3.6        0          0         
+GSN012#1         203        12.7       3.6        0          0         
+GSN028#1         203        12.7       3.6        0          0         
+GSN030#1         203        12.7       3.6        0          0         
+GSN003#1         203        12.7       3.6        0          0         
+GSN007#1         203        12.7       3.6        0          0         
+GSN006#1         203        12.7       3.6        0          0         
+GSN029#1         203        12.7       3.6        0          0         
+GSN005#1         203        12.7       3.6        0          0         
+GSN016#1         203        12.7       3.6        0          0         
+GSN019#1         203        12.7       3.6        0          0         
+GSN018#1         203        12.7       3.6        0          0         
+GSN031#1         203        12.7       3.6        0          0         
+GSN032#1         203        12.7       3.6        0          0         
+GSN017#1         203        12.7       3.6        0          0         
+GSN010#1         203        12.7       3.6        0          0         
+GSN009#1         203        12.7       3.6        0          0         
+GSN004#1         203        12.7       3.6        0          0         
+GSN008#1         203        12.7       3.6        0          0         
+
+[JUNCTIONS]
+;;Name           Elevation  MaxDepth   InitDepth  SurDepth   Aponded   
+;;-------------- ---------- ---------- ---------- ---------- ----------
+GSN001           5.9        3.9        0          0          0         
+GSN024           6.2        3.8        0          0          0         
+GSN027           8.3        1.2        0          0          0         
+GSN026           7.8        1.7        0          0          0         
+GSN025           7.5        2.5        0          0          0         
+GSN002           7.5        2.8        0          0          0         
+GSN023           7.9        2.1        0          0          0         
+GSN021           8.6        1.3        0          0          0         
+GSN022           8.2        1.8        0          0          0         
+GSN015           8.4        1.5        0          0          0         
+GSN020           8.6        1.2        0          0          0         
+GSN014           8.2        1.7        0          0          0         
+GSN011           7.6        2.6        0          0          0         
+GSN013           7.8        2.4        0          0          0         
+GSN012           7.9        2.3        0          0          0         
+GSN028           7.9        1.6        0          0          0         
+GSN030           8.5        1.4        0          0          0         
+GSN003           7.9        2.3        0          0          0         
+GSN007           8.7        1.5        0          0          0         
+GSN006           8.5        1.7        0          0          0         
+GSN029           7.8        1.7        0          0          0         
+GSN005           8.7        1.5        0          0          0         
+GSN016           9.2        1          0          0          0         
+GSN019           8.8        1.2        0          0          0         
+GSN018           8.3        1.9        0          0          0         
+GSN031           8.6        1.2        0          0          0         
+GSN032           8.7        1.2        0          0          0         
+GSN017           8.3        1.6        0          0          0         
+GSN010           8.8        1.1        0          0          0         
+GSN009           8.9        1.4        0          0          0         
+GSN004           8.6        1.6        0          0          0         
+GSN008           8.9        1.3        0          0          0         
+
+[OUTFALLS]
+;;Name           Elevation  Type       Stage Data       Gated    Route To        
+;;-------------- ---------- ---------- ---------------- -------- ----------------
+O1               5.8        TIMESERIES OutfallSeries    NO                       
+O2               6.1        TIMESERIES OutfallSeries    NO                       
+
+[CONDUITS]
+;;Name           From Node        To Node          Length     Roughness  InOffset   OutOffset  InitFlow   MaxFlow   
+;;-------------- ---------------- ---------------- ---------- ---------- ---------- ---------- ---------- ----------
+GSL000           GSN001           O1               28.4       0.017      0.1        0.1        0          0         
+GSL002           GSN002           GSN001           436.5      0.017      0.1        0.1        0          0         
+GSL030           GSN024           O2               71.8       0.017      0.1        0.1        0          0         
+GSL029           GSN025           GSN024           125.5      0.017      0.1        0.1        0          0         
+GSL024           GSN026           GSN025           99.7       0.017      0.1        0.1        0          0         
+GSL028           GSN023           GSN025           89.5       0.017      0.1        0.1        0          0         
+GSL025           GSN027           GSN025           168.5      0.017      0.1        0.1        0          0         
+GSL026           GSN021           GSN023           134.5      0.017      0.1        0.1        0          0         
+GSL027           GSN022           GSN025           146.1      0.017      0.1        0.1        0          0         
+GSL032           GSN011           GSN002           131.5      0.017      0.1        0.1        0          0         
+GSL023           GSN029           GSN025           231        0.017      0.1        0.1        0          0         
+GSL011           GSN015           GSN011           94.1       0.017      0.1        0.1        0          0         
+GSL031           GSN020           GSN022           93.9       0.017      0.1        0.1        0          0         
+GSL003           GSN003           GSN002           418.4      0.017      0.1        0.1        0          0         
+GSL017           GSN013           GSN011           23.5       0.017      0.1        0.1        0          0         
+GSL012           GSN014           GSN011           75.6       0.017      0.1        0.1        0          0         
+GSL022           GSN028           GSN029           101.7      0.017      0.1        0.1        0          0         
+GSL006           GSN006           GSN011           247.5      0.017      0.1        0.1        0          0         
+GSL016           GSN012           GSN011           20.3       0.017      0.1        0.1        0          0         
+GSL007           GSN007           GSN011           186.9      0.017      0.1        0.1        0          0         
+GSL020           GSN030           GSN029           113.2      0.017      0.1        0.3        0          0         
+GSL013           GSN018           GSN013           183.1      0.017      0.1        0.1        0          0         
+GSL015           GSN016           GSN012           125.2      0.017      0.1        0.1        0          0         
+GSL021           GSN031           GSN029           220.2      0.017      0.1        0.1        0          0         
+GSL005           GSN005           GSN003           127        0.017      0.1        0.1        0          0         
+GSL019           GSN019           GSN030           243.1      0.017      0.1        0.1        0          0         
+GSL018           GSN032           GSN017           126.5      0.017      0.1        0.1        0          0         
+GSL009           GSN010           GSN017           197        0.017      0.1        0.1        0          0         
+GSL004           GSN004           GSN003           242.3      0.017      0.1        0.1        0          0         
+GSL010           GSN008           GSN017           270.7      0.017      0.1        0.1        0          0         
+GSL008           GSN009           GSN004           200        0.017      0.2        0.1        0          0         
+GSL014           GSN017           GSN011           226.1      0.017      0.1        0.1        0          0         
+
+[XSECTIONS]
+;;Link           Shape        Geom1            Geom2      Geom3      Geom4      Barrels    Culvert   
+;;-------------- ------------ ---------------- ---------- ---------- ---------- ---------- ----------
+GSL000           RECT_CLOSED  1.0              2.3        0          0          1                    
+GSL002           RECT_CLOSED  1.6              2          0          0          1                    
+GSL030           RECT_CLOSED  1.0              1.5        0          0          1                    
+GSL029           RECT_CLOSED  1.2              1.5        0          0          1                    
+GSL024           CIRCULAR     0.9              0          0          1          1                    
+GSL028           CIRCULAR     0.7              0          0          1          1                    
+GSL025           CIRCULAR     0.8              0          0          1          1                    
+GSL026           CIRCULAR     0.9              0          0          1          1                    
+GSL027           CIRCULAR     0.8              0          0          1          1                    
+GSL032           RECT_CLOSED  1.2              1.5        0          0          1                    
+GSL023           RECT_CLOSED  1.2              1.2        0          0          1                    
+GSL011           CIRCULAR     0.8              0          0          1          1                    
+GSL031           CIRCULAR     0.6              0          0          1          1                    
+GSL003           RECT_CLOSED  1.2              1.7        0          0          1                    
+GSL017           CIRCULAR     0.8              0          0          1          1                    
+GSL012           CIRCULAR     0.8              0          0          1          1                    
+GSL022           CIRCULAR     0.9              0          0          1          1                    
+GSL006           CIRCULAR     0.6              0          0          1          1                    
+GSL016           CIRCULAR     0.8              0          0          1          1                    
+GSL007           CIRCULAR     0.8              0          0          1          1                    
+GSL020           CIRCULAR     1.1              0          0          1          1                    
+GSL013           CIRCULAR     0.5              0          0          1          1                    
+GSL015           CIRCULAR     0.5              0          0          1          1                    
+GSL021           CIRCULAR     0.6              0          0          1          1                    
+GSL005           CIRCULAR     0.7              0          0          1          1                    
+GSL019           CIRCULAR     1.1              0          0          1          1                    
+GSL018           CIRCULAR     0.6              0          0          1          1                    
+GSL009           CIRCULAR     0.8              0          0          1          1                    
+GSL004           CIRCULAR     0.8              0          0          1          1                    
+GSL010           CIRCULAR     0.6              0          0          1          1                    
+GSL008           CIRCULAR     0.8              0          0          1          1                    
+GSL014           RECT_CLOSED  1.2              1          0          0          1                    
+
+[TIMESERIES]
+;;Name           Date       Time       Value     
+;;-------------- ---------- ---------- ----------
+
+[REPORT]
+;;Reporting Options
+INPUT      NO
+CONTROLS   NO
+SUBCATCHMENTS ALL
+NODES ALL
+LINKS ALL
+
+[TAGS]
+
+[MAP]
+DIMENSIONS 10000000000.000 10000000000.000 -10000000000.000 -10000000000.000
+Units      None
+
+[COORDINATES]
+;;Node           X-Coord            Y-Coord           
+;;-------------- ------------------ ------------------
+
+[VERTICES]
+;;Link           X-Coord            Y-Coord           
+;;-------------- ------------------ ------------------
+
+[Polygons]
+;;Subcatchment   X-Coord            Y-Coord           
+;;-------------- ------------------ ------------------
+
+[SYMBOLS]
+;;Gage           X-Coord            Y-Coord           
+;;-------------- ------------------ ------------------
+

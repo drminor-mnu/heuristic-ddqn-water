@@ -1,0 +1,13 @@
+source,comparison,metric,n_pairs,mean_diff,wilcoxon_p,holm_p,cliffs_delta
+E03_v2,GA-guided-Regular,max_level_m,13500,-0.1910763360287617,0.0,0.0,-0.4173727352537723
+E5_scenario_level,A3-A1 (intelligent selection),max_level_m,13500,-0.10061,0,0.0,-0.214
+E5_scenario_level,A1-A0 (exploration increase),max_level_m,13500,-0.06791,1.077e-237,0.0,-0.1663
+E03_v2,GA-guided-Regular,n_switches,13500,-5.1021481481481485,0.0,0.0,-0.052499786008230465
+E5_scenario_level,A3-A1 (intelligent selection),n_switches,13500,-7.46622,0,0.0,-0.1375
+E5_scenario_level,A1-A0 (exploration increase),n_switches,13500,1.918,3.914e-175,0.0,0.0732
+E03_v2,GA-guided-Regular,n_dryrun_proxy,13500,1.5686666666666667,2.969880946604408e-11,5.939761893208816e-11,0.11281075994513023
+E5_scenario_level,A3-A1 (intelligent selection),n_dryrun_proxy,13500,0.01422,8.643e-68,0.0,-0.0684
+E5_scenario_level,A1-A0 (exploration increase),n_dryrun_proxy,13500,2.22533,3.487e-265,0.0,0.2267
+E03_v2,GA-guided-Regular,cum_reward,13500,-0.2533699571512988,5.20600989809741e-51,2.082403959238964e-50,-0.006606299039780494
+E5_scenario_level,A3-A1 (intelligent selection),cum_reward,13500,0.27451,2.918e-68,0.0,0.0087
+E5_scenario_level,A1-A0 (exploration increase),cum_reward,13500,-0.76164,0,0.0,-0.0221

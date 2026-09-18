@@ -1,0 +1,3 @@
+﻿Model	w1	w2	w3	w4	Training Time (s), mean±sd (5-seed)	Decision time (c), ms/decision
+Regular DDQN (2-criterion)	0.50	0.50	0	0	2960.7 ± 368.1	0.1655
+GA-guided DDQN (4-criterion)	0.40	0.25	0.25	0.10	10071.1 ± 247.9	0.2389

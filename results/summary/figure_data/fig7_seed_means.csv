@@ -1,0 +1,16 @@
+﻿model,seed,mean_cum_reward
+Regular,1,152.600832
+Regular,2,153.703383
+Regular,3,152.854582
+Regular,4,153.204891
+Regular,5,152.984217
+GA-guided,1,153.455818
+GA-guided,2,153.511560
+GA-guided,3,153.019834
+GA-guided,4,151.041568
+GA-guided,5,153.052276
+PSO-guided,1,154.599926
+PSO-guided,2,153.316946
+PSO-guided,3,153.104351
+PSO-guided,4,154.290065
+PSO-guided,5,153.006276

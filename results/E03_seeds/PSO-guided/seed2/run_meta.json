@@ -1,0 +1,49 @@
+{
+  "exp_id": "E03",
+  "model": "PSO-guided",
+  "seed": 2,
+  "git_commit": "cafbfa7a4cc4ebbb89461631525d22aca35478ee",
+  "started_at": "2026-08-29T11:06:03.689209+00:00",
+  "finished_at": "2026-08-29T13:53:44.706593+00:00",
+  "elapsed_train_s": 8913.261259410996,
+  "hyperparams": {
+    "lr": 0.001,
+    "gamma": 0.7,
+    "batch_size": 20,
+    "target_update_C": 200,
+    "min_replay_size": 100,
+    "ga_start": 0.6,
+    "ga_end": 0.0,
+    "eps_start": 0.3,
+    "eps_end": 0.05,
+    "gru_layers": 3,
+    "gru_hidden": 32,
+    "seq_len": 5
+  },
+  "reward_weights": {
+    "w1": 0.4,
+    "w2": 0.25,
+    "w3": 0.25,
+    "w4": 0.1
+  },
+  "heuristic_params": {
+    "type": "PSO",
+    "swarm_size": 30,
+    "num_iterations": 100,
+    "inertia": 0.7,
+    "cognitive": 1.5,
+    "social": 1.5,
+    "patience": 10,
+    "min_improvement": 1e-06
+  },
+  "data": {
+    "train_n": 3996,
+    "test_n": 2700,
+    "split_seed": 42,
+    "split_file": "data/splits/fixed_split_seed42.json"
+  },
+  "versions": {
+    "python": "3.9.16 | packaged by conda-forge | (main, Feb  1 2023, 21:39:03) \n[GCC 11.3.0]",
+    "torch": "2.0.1+cu117"
+  }
+}

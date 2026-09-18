@@ -1,0 +1,6 @@
+﻿model,mean_ms_per_decision_c,sd_ms_per_decision_c,n_repeats,source
+Regular,0.1556,0.0031,3,results/summary/E10_unified_c_summary.csv
+GA-guided,0.1546,0.0009,3,results/summary/E10_unified_c_summary.csv
+PSO-guided,0.1558,0.0017,3,results/summary/E10_unified_c_summary.csv
+GA-only,19.9324,0.1072,3,results/summary/E10_unified_c_summary.csv
+PSO-only,1.4106,0.0063,3,results/summary/E10_unified_c_summary.csv

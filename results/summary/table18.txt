@@ -1,0 +1,24 @@
+Table 18. Single-variable ablation of online guidance (A0/A1/A3), 5 seeds,
+new weights [0.40, 0.25, 0.25, 0.10], gamma=0.7. Values are mean +- sd
+over 5 random seeds (2,700 test scenarios per seed). No overflow occurred
+in any condition (0/13,500 scenario-seed combinations).
+
+Condition   Guidance source                          Max water level (m)   On/off changes   Dry-running proxy
+A0          none (ga_prob = 0)                        6.201 +- 0.152         39.74 +- 10.00    2.63 +- 1.89
+A1          random action, same decay schedule as A3  6.133 +- 0.159         41.66 +- 5.81     4.86 +- 2.54
+A3          GA (ga_start 0.6 -> 0.0, decaying)         6.033 +- 0.091         34.20 +- 4.76     4.87 +- 4.39
+
+Cliff's delta for max water level (scenario-level, n=13,500, primary granularity;
+sign convention: delta < 0 = lower values for the first-named condition):
+  A3-A0 (guidance vs none):              delta = -0.406   (mean diff -0.169 m)
+  A1-A0 (exploration increase alone):    delta = -0.166   (mean diff -0.068 m)
+  A3-A1 (intelligent selection alone):   delta = -0.214   (mean diff -0.101 m)
+
+Reference only (seed-mean granularity, n=5; Wilcoxon minimum attainable
+two-sided p = 2/32 = 0.0625 at this n, so significance is structurally
+unreachable and scenario-level is the primary result):
+  A3-A0: delta = -0.60   A1-A0: delta = -0.36   A3-A1: delta = -0.28
+
+Source: docs/E05_REPORT.md Section 5 ("5-seed final") and Section "seed-mean
+reference"; raw per-comparison values in results/summary/E05_stage1_tests.csv
+(scenario_level rows, metric=max_level_m).

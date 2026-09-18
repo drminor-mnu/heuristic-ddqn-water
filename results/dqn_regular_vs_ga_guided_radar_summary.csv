@@ -1,0 +1,9 @@
+model,metric,raw_value,score
+Regular DQN,Water Level Safety,4.843037,0.973012
+Regular DQN,Switching Stability,7.851111,1.000000
+Regular DQN,Energy Efficiency,185430.014815,0.186104
+Regular DQN,Dry-running Safety,5.764074,0.772987
+GA-guided DQN,Water Level Safety,5.607074,0.828854
+GA-guided DQN,Switching Stability,91.495185,0.085809
+GA-guided DQN,Energy Efficiency,34509.255556,1.000000
+GA-guided DQN,Dry-running Safety,4.455556,1.000000

@@ -1,0 +1,62 @@
+[2026-08-26T21:54:06] 25 total combos, 0 already done, 25 to run, workers=8
+[2026-08-26T21:54:06] estimated total CPU-time: 100.1h, estimated wall time at workers=8: 12.5h (rough -- scheduling is not bin-packed, GA/PSO-only estimate is extrapolated from a 30-scenario probe, not measured on the full set)
+[2026-08-27T00:59:25] DONE Regular seed2: 2700 rows in 11117.9s
+[2026-08-27T00:59:32] DONE Regular seed3: 2700 rows in 11125.1s
+[2026-08-27T00:59:32] DONE Regular seed5: 2700 rows in 11125.2s
+[2026-08-27T00:59:41] DONE Regular seed4: 2700 rows in 11134.1s
+[2026-08-27T00:59:41] DONE Regular seed1: 2700 rows in 11134.2s
+[2026-08-27T03:31:53] DONE GA-guided seed1: 2700 rows in 20265.8s
+[2026-08-27T03:31:59] DONE GA-guided seed2: 2700 rows in 20271.6s
+[2026-08-27T03:32:34] DONE GA-guided seed3: 2700 rows in 20306.4s
+[2026-08-27T03:49:00] DONE PSO-guided seed1: 2700 rows in 10167.2s
+[2026-08-27T03:49:06] DONE PSO-guided seed2: 2700 rows in 10164.5s
+[2026-08-27T03:49:16] DONE PSO-guided seed3: 2700 rows in 10174.7s
+[2026-08-27T05:24:49] DONE PSO-guided seed5: 2700 rows in 6770.0s
+[2026-08-27T05:24:58] DONE PSO-guided seed4: 2700 rows in 6785.1s
+[2026-08-27T05:41:04] DONE GA-guided seed5: 2700 rows in 16892.0s
+[2026-08-27T05:41:26] DONE GA-guided seed4: 2700 rows in 16920.8s
+[2026-08-27T05:58:51] DONE PSO-only seed1: 2700 rows in 2032.7s
+[2026-08-27T06:14:05] DONE PSO-only seed2: 2700 rows in 1980.2s
+[2026-08-27T06:14:37] DONE PSO-only seed3: 2700 rows in 1991.0s
+[2026-08-27T06:31:16] DONE PSO-only seed4: 2700 rows in 1944.8s
+[2026-08-27T06:45:41] DONE PSO-only seed5: 2700 rows in 1896.6s
+[2026-08-27T08:53:38] DONE GA-only seed1: 2700 rows in 19264.2s
+[2026-08-27T09:06:34] DONE GA-only seed2: 2700 rows in 19054.1s
+[2026-08-27T09:06:53] DONE GA-only seed4: 2700 rows in 19057.1s
+[2026-08-27T09:08:04] DONE GA-only seed3: 2700 rows in 19138.7s
+[2026-08-27T10:21:02] DONE GA-only seed5: 2700 rows in 17773.2s
+[2026-08-27T10:21:03] run complete
+[2026-08-29T16:43:48] 3 total combos, 0 already done, 3 to run, workers=3
+[2026-08-29T16:43:48] estimated total CPU-time: 11.7h, estimated wall time at workers=3: 3.9h (rough -- scheduling is not bin-packed, GA/PSO-only estimate is extrapolated from a 30-scenario probe, not measured on the full set)
+[2026-08-29T16:43:52] DONE Regular seed9: 3 rows in 3.7s
+[2026-08-29T16:43:54] DONE GA-only seed9: 3 rows in 5.6s
+[2026-08-29T16:44:01] DONE GA-guided seed9: 3 rows in 12.8s
+[2026-08-29T16:44:02] run complete
+[2026-08-29T16:57:44] 25 total combos, 0 already done, 25 to run, workers=8
+[2026-08-29T16:57:44] estimated total CPU-time: 100.1h, estimated wall time at workers=8: 12.5h (rough -- scheduling is not bin-packed, GA/PSO-only estimate is extrapolated from a 30-scenario probe, not measured on the full set)
+[2026-08-29T20:05:52] DONE Regular seed1: 2700 rows in 11286.7s
+[2026-08-29T20:05:54] DONE Regular seed2: 2700 rows in 11289.0s
+[2026-08-29T20:05:56] DONE Regular seed4: 2700 rows in 11290.4s
+[2026-08-29T20:06:03] DONE Regular seed5: 2700 rows in 11298.0s
+[2026-08-29T20:06:03] DONE Regular seed3: 2700 rows in 11298.1s
+[2026-08-29T22:36:25] DONE GA-guided seed1: 2700 rows in 20320.2s
+[2026-08-29T22:36:48] DONE GA-guided seed2: 2700 rows in 20342.5s
+[2026-08-29T22:38:34] DONE GA-guided seed3: 2700 rows in 20449.2s
+[2026-08-29T22:53:08] DONE PSO-guided seed1: 2700 rows in 10032.1s
+[2026-08-29T22:53:22] DONE PSO-guided seed3: 2700 rows in 10038.4s
+[2026-08-29T22:53:44] DONE PSO-guided seed2: 2700 rows in 10061.1s
+[2026-08-30T00:20:32] DONE PSO-guided seed4: 2700 rows in 6246.2s
+[2026-08-30T00:20:43] DONE PSO-guided seed5: 2700 rows in 6235.0s
+[2026-08-30T00:41:54] DONE GA-guided seed5: 2700 rows in 16559.8s
+[2026-08-30T00:41:58] DONE GA-guided seed4: 2700 rows in 16566.0s
+[2026-08-30T00:52:50] DONE PSO-only seed1: 2700 rows in 1927.2s
+[2026-08-30T01:13:08] DONE PSO-only seed2: 2700 rows in 1874.4s
+[2026-08-30T01:13:23] DONE PSO-only seed3: 2700 rows in 1885.6s
+[2026-08-30T01:23:44] DONE PSO-only seed4: 2700 rows in 1854.2s
+[2026-08-30T01:43:19] DONE PSO-only seed5: 2700 rows in 1811.3s
+[2026-08-30T04:08:08] DONE GA-only seed1: 2700 rows in 19773.4s
+[2026-08-30T04:17:00] DONE GA-only seed2: 2700 rows in 19432.7s
+[2026-08-30T04:17:14] DONE GA-only seed4: 2700 rows in 19409.9s
+[2026-08-30T04:17:19] DONE GA-only seed3: 2700 rows in 19437.0s
+[2026-08-30T05:25:59] DONE GA-only seed5: 2700 rows in 18327.3s
+[2026-08-30T05:26:00] run complete

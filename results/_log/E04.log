@@ -1,0 +1,5 @@
+[2026-08-30T16:36:10] L=1 guide=ENUM-guided: 3 combos, 0 done, 3 to run, workers=3
+[2026-08-30T18:00:33] DONE L1 seed3: 2700 rows in 5062.6s
+[2026-08-30T18:00:34] DONE L1 seed1: 2700 rows in 5063.7s
+[2026-08-30T18:00:36] DONE L1 seed2: 2700 rows in 5065.2s
+[2026-08-30T18:00:36] run complete

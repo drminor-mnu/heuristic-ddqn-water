@@ -1,0 +1,71 @@
+{
+  "workers": 24,
+  "sample_sizes": [
+    50,
+    100,
+    250,
+    500,
+    1000,
+    1500,
+    2000,
+    2700
+  ],
+  "test_population": 2700,
+  "timing_excludes": [
+    "training",
+    "process startup",
+    "module imports",
+    "checkpoint loading",
+    "CSV and plot writing"
+  ],
+  "methods": {
+    "Regular DQN": {
+      "kind": "dqn",
+      "checkpoint": "trained_models/dqn_gru_regular_w0_5_w0_5_w0_0_w0_0_min2_tr0_6_acttype0.pkl",
+      "weights": [
+        0.5,
+        0.5,
+        0.0,
+        0.0
+      ]
+    },
+    "GA-guided DQN": {
+      "kind": "dqn",
+      "checkpoint": "trained_models/dqn_guided_GA_w0_25_w0_4_w0_25_w0_1_ga0_6_min2_tr0_6_acttype0.pkl",
+      "weights": [
+        0.25,
+        0.4,
+        0.25,
+        0.1
+      ]
+    },
+    "PSO-guided DQN": {
+      "kind": "dqn",
+      "checkpoint": "trained_models/dqn_guided_PSO_w0_25_w0_4_w0_25_w0_1_ga0_6_min2_tr0_6_acttype0.pkl",
+      "weights": [
+        0.25,
+        0.4,
+        0.25,
+        0.1
+      ]
+    },
+    "GA": {
+      "kind": "ga",
+      "weights": [
+        0.25,
+        0.4,
+        0.25,
+        0.1
+      ]
+    },
+    "PSO": {
+      "kind": "pso",
+      "weights": [
+        0.25,
+        0.4,
+        0.25,
+        0.1
+      ]
+    }
+  }
+}
